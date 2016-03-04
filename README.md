@@ -7,3 +7,7 @@ Flip Card, Grid Based, and Jurassic Dino (app) Demos some of the React.js Ecosys
 - Mongo: NoSQL DB
 - Babel: ES6 and beyond
 - Flow: type annotations
+
+
+Credit to http://www.dinosaurfact.net/ 
+Twitter: @dinosaurs

@@ -1,5 +1,5 @@
 {
-  "extends": "eslint-config-rackt",
+  "extends": "reactjs",
   "ecmaFeatures": {
     "arrowFunctions": true,
     "blockBindings": true,
