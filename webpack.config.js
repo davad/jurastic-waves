@@ -6,7 +6,7 @@ import path from 'path';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
 
-module.exports = appConfig => {
+export default function webpackConfig(appConfig) {
   let config = {
     context: __dirname,
     devtool: 'inline-source-map',

@@ -1,6 +1,166 @@
-{
-  "name": "",
-  "type": "",
-  "description": "",
-  "avatar": ""
-}
+[
+  {
+      "name": "Abrictosaurus",
+      "description": "Abrictosaurus  The Abrictosaurus was a small herbivore at around 4 feet long.\n"
+  },
+  {
+      "name": "Abrosaurus",
+      "description": "Abrosaurus  The Abrosaurus is known from only one very well preserved skull.\n"
+  },
+  {
+      "name": "Acrocanthosaurus",
+      "description": "Acrocanthosaurus The longest known Acrocanthusaurus to be found was 11.5 meters in length.\n"
+  },
+  {
+      "name": "Allosaurus",
+      "description": "Allosaurus  There has been over 20 different Allosaurus fossil finding and many are in very good shape.\n"
+  },
+  {
+      "name": "Anchisaurus",
+      "description": "Anchisaurus  The Anchisaurus was one of the first dinosaurs discovered in North America.\n"
+  },
+  {
+      "name": "Archaeopteryx",
+      "description": "Archaeopteryx Archaeopteryx is the earliest and most primitive bird known.\n"
+  },
+  {
+      "name": "Barosaurus",
+      "description": "Barosaurus  Barosaurus have been found in the Morrison Formation. In the same location there was also findings of Diplodocus, Apatosaurus, Camarasaurus, Brachiosaurus, Haplocanthosaurus, Allosaurus\n"
+  },
+  {
+      "name": "Brachiosaurus",
+      "description": "Brachiosaurus Brachiosaurus were so big that they are thought to have two hearts to be able to pump blood way up their necks.\n"
+  },
+  {
+      "name": "Brachytrachelopan",
+      "description": "Brachytrachelopan There is only one known Brachytrachelopan fossil finding which was discovered in Argentina, South America.\n"
+  },
+  {
+      "name": "Brontosaurus",
+      "description": "Brontosaurus Brontosaurus was first discovered in 1879 by Othniel Charles Marsh.\n"
+  },
+  {
+      "name": "Camarasaurus",
+      "description": "Camarasaurus  The Camarasaurus measured to roughly 48ft in length and 15ft in height.\n"
+  },
+  {
+      "name": "Camptosaurus",
+      "description": "Camptosaurus Camptosaurus was first described by O.C marsh in 1879, but called the dinosaur a Camptonotus. The name was changed to Camptosaurus in 1885 because the first name was taken for an insect.\n"
+  },
+  {
+      "name": "Ceratosaurus",
+      "description": "Ceratosaurus  The Ceratosaurus was about twelve feet high and over thirty feet long.\n"
+  },
+  {
+      "name": "Coelurus",
+      "description": "Coelurus  Coelophysis was three meters long and it had only three functional digits, the fourth embedded in the flesh of the hand.\n"
+  },
+  {
+      "name": "Compsognathus",
+      "description": "Compsognathus  In 1901 10 egg fossils were found that were thought to belong to the Compsognathus species. It wasn't until 1993 that researchers determined that they were most likely from a Sinosauropteryx.\n"
+  },
+  {
+      "name": "Dilophosaurus",
+      "description": "Dilophosaurus Dilophosaurus is probably the dinosaur that most commonly is mistaken for certain features of it due to Jurassic Park.\n"
+  },
+  {
+      "name": "Diplodocus",
+      "description": "Diplodocus  The Diplodocus was one of the largest dinosaurs ever to be discovered. Its average size was 88ft in length.\n"
+  },
+  {
+      "name": "Europasaurus",
+      "description": "Europasaurus  It has been suggested that the ancestor of Europasaurus would have dwarfed rapidly after immigrating to a paleo-island because of lack of food.\n"
+  },
+  {
+      "name": "Fruitadens",
+      "description": "Fruitadens  The Fruitadens is the smallest known dinosaur of the Ornithischian group to exist today.\n"
+  },
+  {
+      "name": "Giraffatitan",
+      "description": "Giraffatitan  The Giraffatitan is also known as the Brachiosaurus which means \"arm lizard\", from the Greek brachion (\"arm\") and sauros (\"lizard\").\n"
+  },
+  {
+      "name": "Guanlong",
+      "description": "Guanlong  the wording \"Guanlong\" means Crowned Dragon because of the two crests on its head.\n"
+  },
+  {
+      "name": "Haplocanthosaurus",
+      "description": "Haplocanthosaurus There has never been a skull fossil of a Haplocanthosaurus ever discovered. The descreption of the dinosaur was based by the body parts that were found.\n"
+  },
+  {
+      "name": "Heterodontosaurus",
+      "description": "Heterodontosaurus Heterodontosaurus fossils have been found in Africa.\n"
+  },
+  {
+      "name": "Huayangosaurus",
+      "description": "Huayangosaurus  The Huayangosaurus was one of the earlier plated dinosaurs which was very primitive with a broad skull and teeth in the front of its mouth.\n"
+  },
+  {
+      "name": "Juravenator",
+      "description": "Juravenator  The Juravenator means Jura Mountains hunter in Greek.\n"
+  },
+  {
+      "name": "Kentrosaurus",
+      "description": "Kentrosaurus  The Kentrosaurus used its spines on its back to regulate its body temperature.\n"
+  },
+  {
+      "name": "Laosaurus",
+      "description": "Laosaurus  The Laosaurus was first described by O.C. Marsh in 1878.\n"
+  },
+  {
+      "name": "Lesothosaurus",
+      "description": "Lesothosaurus  The Lesothosaurus is one of the most early ornithischians (bird-hipped dinosaur).\n"
+  },
+  {
+      "name": "Lexovisaurus",
+      "description": "Lexovisaurus  The Lexovisaurus was a dinosaur specie that was much like a Stegosaurus. It has round pointed spines like a Stegosaurus.\n"
+  },
+  {
+      "name": "Limusaurus",
+      "description": "Limusaurus  The Limusaurus is a great example to show that its possible that dinosaurs did not evolve into birds.\n"
+  },
+  {
+      "name": "Massospondylus",
+      "description": "Massospondylus \nMost of the Massospondylus fossils were discovered in the Country of Africa in Namibia, Zimbabwe and South Africa.\n\n"
+  },
+  {
+      "name": "Megalosaurus",
+      "description": "Megalosaurus  The first Megalosaurus fossil was discovered in 1676 in England.\n"
+  },
+  {
+      "name": "Miragaia longicollum",
+      "description": "Miragaia longicollum The Miragaia Longicollum was named this just recently.\n"
+  },
+  {
+      "name": "Monolophosaurus",
+      "description": "Monolophosaurus Before the Monolophosaurus got its name the news press though that it was a Jiangjunmiaosaurus.\n"
+  },
+  {
+      "name": "Nanosaurus",
+      "description": "Nanosaurus Nanosaurus actually means \"dwarf Lizard\" and was described in 1877 but their is minimal information about this dinosaur because there has not been many finding.\n"
+  },
+  {
+      "name": "Omeisaurus",
+      "description": "Omeisaurus Omeisaurus was found in the China region. It had unusual features than other in its group such as nostrils located close to the end of its nose.\n"
+  },
+  {
+      "name": "Scutellosaurus",
+      "description": "Scutellosaurus Scutellosaurus was a herbivore that was found in Arizona. Only two partial fossil body structures have been found.\n"
+  },
+  {
+      "name": "Segisaurus",
+      "description": "Segisaurus  The Segisaurus is known from only a few partial fossils discovered. It was closely related to the Procompsognathus.\n"
+  },
+  {
+      "name": "Stegosaurus",
+      "description": "Stegosaurus  The Stegosaurus Head fossil size was very small. There was also a large open area inside the region of the spinal cord. Some scientists believe that they had a second brain that shared responsibilities and functions of the brain.\n"
+  },
+  {
+      "name": "Supersaurus",
+      "description": "Supersaurus  A almost complete Fossil of the Supersaurus has been found and was nicknamed \"Jimbo\". It currently is located at the Wyoming Dinosaur Center.\n"
+  },
+  {
+      "name": "Zigongosaurus",
+      "description": "Zigongosaurus  The Zigongosaurus was named by Hou, Chao, and Chu in 1976.\n"
+  }
+]
