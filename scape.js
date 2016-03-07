@@ -1,6 +1,6 @@
 var links = [];
-'use strict';
 
+var fs = require('fs');
 var casper = require('casper').create();
  
 function getLinks() {
@@ -53,18 +53,26 @@ function getOtherPageData(){
 
 casper.then(function() {
   var data = this.evaluate(getLinks);
- 
- this.each(data[0], function(self, link) { 
-  console.log(link)
+  var links = data[0];
+  var _customData = data[1];
+  
+  this.each(links, function(self, link, index) { 
+
         this.thenOpen('http://www.dinosaurfact.net'+link, function() {
-            var goals = this.evaluate(getOtherPageData)
-            this.echo(goals); // display the title of page
+            var pagedata = this.evaluate(getOtherPageData)
+            _customData[index].classifications = pagedata[0];
+            _customData[index].parhas = pagedata[1];            
         });
+        
     });
+    
+    fs.write('temp.txt', _customData, 'w');
+    
 })
 
 
 casper.run(function() {
+
     // echo results in some pretty fashion
     this.echo(links.length + ' Dinos found:');
     this.echo(links).exit();
