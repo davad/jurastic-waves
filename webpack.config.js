@@ -16,7 +16,7 @@ export default function webpackConfig(appConfig) {
     ],
     output: {
       path: path.resolve(__dirname, './build'),
-      publicPath: '/wp_assets',
+      publicPath: '/assets',
       filename: 'app.js'
     },
     resolve: {

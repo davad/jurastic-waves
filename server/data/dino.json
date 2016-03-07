@@ -1,166 +1,477 @@
 [
   {
-      "name": "Abrictosaurus",
-      "description": "Abrictosaurus  The Abrictosaurus was a small herbivore at around 4 feet long.\n"
+    "name": "Abrictosaurus",
+    "shortDescription": "Abrictosaurus  The Abrictosaurus was a small herbivore at around 4 feet long.\n",
+    "longDescription": "The Abrictosaurus was a dinosaur that lived in the early Jurassic period of the Mesozoic era. It was a tiny dinosaur not weighing more than 40 to 50 kilos. It was during the middle of the Jurassic period that the large, dominant dinosaurs were seen on the earth. \nThe Abrictosaurus was present on the planet about 200 to 195 million years ago. It is distinguished by the characteristic morphology of its teeth. Its teeth were developed to have more than one shape. This feature is not seen amongst the Triassic dinosaurs but is seen very commonly amongst the more evolved Jurassic dinosaurs. \nThe fossils of the Abrictosaurus were discovered in southern Africa. It could have existed on South America as well since Africa and South America was a single continent in the Jurassic period. \nThe Abrictosaurus belonged to order Orinithischia, which includes 'bird hipped' dinosaurs. It could walk on its hind legs, thus was bipedal. It derived its nourishment from plants and leaves. \n\nNomenclature \nThe word 'abricto' has Greek origins. It translates to 'wide awake' in English. The suffix '-saurus' is derived from the Greek word 'sauros' which means 'lizard' in English. Thus, the name 'Abrictosaurus' denotes 'a lizard that is wide awake'. This name was chosen because paleontologist Hopson, the scientist who suggested the name, firmly believed that the Abrictosaurus did not undergo spells of hibernation as suggested by other scientists. \nThe specific name Abrictosaurus consors was derived from the species name of the Lycorhinus consors. Hopson renamed the Lycorhinus to Abrictosaurus and retained the second part of the binomial name. The word 'consors' translates to 'consort'.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Abrictosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "Family": "Heterodontosauridae",
+    "Genus": "Abrictosaurus"
   },
   {
-      "name": "Abrosaurus",
-      "description": "Abrosaurus  The Abrosaurus is known from only one very well preserved skull.\n"
+    "name": "Abrosaurus",
+    "shortDescription": "Abrosaurus  The Abrosaurus is known from only one very well preserved skull.\n",
+    "longDescription": "The Abrosaurus was a dinosaur that lived in the middle Jurassic period of the Mesozoic era. The timeline of its existence can be fixed at 170 to 160 million years ago. This would be the approximately in the Bajocian to the Callovian ages. \nThe Abrosaurus was an Asian dinosaur. Its fossils were discovered in China. It has certain features that match prosauropods, but most scientists agree that it was a sauropod dinosaur. \nThe size of the Abrosaurus was relatively small as compared to the other Jurassic sauropods. Its length was about 28 to 32 feet and its weight was approximately 4000 to 4500 kilos. Some of the largest sauropods of Jurassic period weighed as much as 30,000 kilos. But these dinosaurs were present on the earth later than the Abrosaurus. Most likely, giant sauropods like the Apatosaurus evolved from dinosaurs like the Abrosaurus.\nThe Abrosaurus was a herbivorous dinosaur, like other sauropods. Herbivores far exceeded carnivorous dinosaurs in the Jurassic period.\n\nNomenclature\nThe word ‘abros’ is a Greek word that translates to ‘fragile’ or ‘delicate’ in English. The word ‘sauros’ means ‘lizard’ in English. Hence, the name ‘abrosaurus’ indicates ‘a lizard which is fragile’. The skull of the Abrosaurus was very flimsy, made up of small pieces of bones. Hence it was deemed a delicate dinosaur.\nThe binomial name Abrosaurus dongpoi was chosen to honor the Chinese poet Su Dongpo.\nThe christening of the remains of the Abrosaurus was done by Ouyang Hui.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Abrosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Saurischia",
+    "SubOrder": "Sauropodomorpha",
+    "Genus": "Abrosaurus"
   },
   {
-      "name": "Acrocanthosaurus",
-      "description": "Acrocanthosaurus The longest known Acrocanthusaurus to be found was 11.5 meters in length.\n"
+    "name": "Acrocanthosaurus",
+    "shortDescription": "Acrocanthosaurus  The longest known Acrocanthusaurus to be found was 11.5 meters in length.\n",
+    "longDescription": "The Acrocanthosaurus was a dinosaur that existed on the earth in the early Cretaceous period of the Mesozoic era. It is believed to have been present about 125 to 110 million years ago. Its fossils were discovered in the United States, predominantly in Texas and Oklahoma. But it likely inhabited the whole of the North American continent.\nThe Acrocanthosaurus was a large dinosaur. Its length was about 11 to 12 meters from head to tail. Its weight is approximated at 6000 to 6500 kilos. The neck and the fore legs of the Acrocanthosaurus were muscular and strong. Its hind legs were stout. They were not adapted for running, thus indicating that the Acrocanthosaurus had a slow gait.\nMany comparisons are made between the Acrocanthosaurus and the Tyrannosaurus although the two are not related genera. This is because both of these dinosaurs were carnivorous and of comparable sizes.\nThe Tyrannosaurus had fore limbs which were shorter as compared to the Acrocanthosaurus. Its teeth were stronger than those of the Acrocanthosaurus and it also existed much later in history as well.\n\nEtymology\nThe name of the Acrocanthosaurus is derived from its distinct thoracic, lumbar and sacral spinal processes. The word 'acrocantho' has Greek origins and translates to 'tall vertebral column'. The word 'sauros' means 'lizard' in Greek. Thus, the name 'Acrocanthosaurus' means 'the lizard with the tall vertebral column'.\nThe binomial name Acrocanthosaurus atokensis is derived from the location where the holotype of the species was found, Atoka County.\nThe naming of the dinosaur was done by J. Stovall and W. Langston, Jr.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Acrocanthosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "SubOrder": "Carnosauria",
+    "Family": "Carcharodontosauridae",
+    "Genus": "Acrocanthosaurus"
   },
   {
-      "name": "Allosaurus",
-      "description": "Allosaurus  There has been over 20 different Allosaurus fossil finding and many are in very good shape.\n"
+    "name": "Allosaurus",
+    "shortDescription": "Allosaurus  There has been over 20 different Allosaurus fossil finding and many are in very good shape.\n",
+    "longDescription": "The Allosaurus was a large, carnivorous dinosaur of the Jurassic period. It is believed to have existed about 157 to 149 million years ago. This lies in the Kimmeridgian and Tithonian ages of the Jurassic. It was one the first theropods to be discovered by man. \nThe length of the Allosaurus was about 7 to 9 meters. This may seem small as compared to the larger theropods of the Cretaceous period, but was one of the largest dinosaurs of its time. Only the giant sauropods exceeded the Allosaurus in size and they were herbivores. The weight of the Allosaurus was about 3000 kilos.\nThe Allosaurus became popular immediately after it was discovered in the latter half of the nineteenth century. This can be attributed to the fact that ‘bone wars’ or races to discover newer species of dinosaurs were prevalent everywhere in the paleontology circles at that time.\n\nEtymology \nThe name 'allosaurus' is derived from two words 'allo' and 'saurus'. The word 'allo' means 'not similar' and has Latin origins. The word 'sauros' means 'lizard' in the Greek language. Thus, the word 'allosaurus' roughly translates to 'a dinosaur that is not similar'. This name was chosen as the Allosaurus was different as compared to the other known dinosaurs during the time of its discovery. \nThe species name Allosaurus fragilis was selected as it was assumed that theropods were very susceptible to fractures of bones. And such fractures did not heal easily. Hence the name 'fragilis', which means fragile, was assigned to the fossils. But later it was proved that this was not the case. Theropods were very hardy.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Allosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "SubOrder": "Carnosauria",
+    "Family": "Allosauridae",
+    "Genus": "Allosaurus"
   },
   {
-      "name": "Anchisaurus",
-      "description": "Anchisaurus  The Anchisaurus was one of the first dinosaurs discovered in North America.\n"
+    "name": "Anchisaurus",
+    "shortDescription": "Anchisaurus  The Anchisaurus was one of the first dinosaurs discovered in North America.\n",
+    "longDescription": "The Anchisaurus was a dinosaur that existed on the earth in the early Jurassic period. It was a small dinosaur, growing to about 3 to 4 meters in length. Its weight most likely did not exceed 35 kilos. It is most recently grouped under primitive sauropods. \nThe timeline of its existence is estimated at about 199 to 189 million years ago. This lies in the Hettangian to the Pliensbachian ages of the Jurassic period. This period was abundant with prosauropods and it was initially believed that the Anchisaurus was one of them. On further investigations, it was seen that it resembled basal sauropodomorphs than prosauropods.\nThe fossils of the Anchisaurus were discovered in the United States. It is postulated that the dinosaur could have inhabited the whole of North America. The Anchisaurus was herbivorous and most likely hunted by the carnivorous Jurassic theropods.\nThe similarity that the Anchisaurus shared with basal sauropods and prosauropods has led paleontologists to believe that it could have evolved from the connecting link between these dinosaurs.\n\nNomenclature\nThe name Anchisaurus has Greek origins. The prefix ‘anchi’ translates to ‘related’ or ‘close’ in English. The suffix ‘-saurus’ is derived from the Greek word ‘sauros’ which means ‘lizard’ in English. Thus the name ‘Anchisaurus’ denotes ‘related dinosaur’. \nThe christening of the remains was done by O.C. Marsh. He chose this name as he believed the Anchisaurus was related to the evolved sauropods.\nThe binomial name Anchisaurus polyzelos translates to ‘highly sought-after’. Marsh was searching for actual dinosaur fossils in the Connecticut region for a very long and could not find them. When he finally found them in the form of the Anchisaurus, they were prized indeed.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Anchisaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Anchisauridae",
+    "Genus": "Anchisaurus"
   },
   {
-      "name": "Archaeopteryx",
-      "description": "Archaeopteryx Archaeopteryx is the earliest and most primitive bird known.\n"
+    "name": "Archaeopteryx",
+    "shortDescription": "Archaeopteryx Archaeopteryx is the earliest and most primitive bird known.\n",
+    "longDescription": "The Archaeopteryx is very commonly known as the first bird that lived on the earth. Although older avian specimens have been discovered, the Archaeopteryx has not lost its popularity and is still one the most well-known Jurassic vertebrates.\nThe fossils of the Archaeopteryx have been discovered in Germany. They resemble theropod dinosaurs as well as birds. They probably resemble dinosaurs more. Scientists have speculated that the creature may have been related to the ancestors of modern birds as opposed it having given rise to birds.\nThe Archaeopteryx had distinctive feathers and a prominent tail. Its ability to fly is considered suspect by scientists. Many paleontologists consider the Archaeopteryx to be a crawling vertebrate which could possibly glide.\nThe Archaeopteryx weighed a little less than kilo. Its length was about 30 to 50 centimeters. It existed in the Tithonian age of the Jurassic period. This was approximately 150 to 147 million years ago.\n\nNomenclature\nThe name Archaeopteryx is composed of two words, 'archaeo' and 'pteryx'. 'Archaeo' is derived from the Greek word 'archeos' which translates to 'antique'. 'Pteryx' translates to 'feather' in Greek. This name was chosen as the organism was defined by a single feather specimen initially.\nThe specific name Archaeopteryx lithographica was probably chosen for the organism as the fossils looked like inscriptions on stone.\nThe German styling for the creature, 'Urvogel', stands for 'first bird', as it was once the oldest discovered avian. \n\nClassification",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Archaeopteryx.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Aves",
+    "Family": "Archaeopterygidae",
+    "Genus": "Archaeopteryx"
   },
   {
-      "name": "Barosaurus",
-      "description": "Barosaurus  Barosaurus have been found in the Morrison Formation. In the same location there was also findings of Diplodocus, Apatosaurus, Camarasaurus, Brachiosaurus, Haplocanthosaurus, Allosaurus\n"
+    "name": "Barosaurus",
+    "shortDescription": "Barosaurus  Barosaurus have been found in the Morrison Formation. In the same location there was also findings of Diplodocus, Apatosaurus, Camarasaurus, Brachiosaurus, Haplocanthosaurus, Allosaurus\n",
+    "longDescription": "The Barosaurus was a Jurassic dinosaur known for its giraffe like long neck. It roamed the earth around 156 to 148 million years ago. This time span lied between the Kimmeridgian and Tithonian ages of the Jurassic period. Its remains were found in the central region of the United States.\nThe Barosaurus was a gigantic dinosaur. It was a typical Jurassic sauropod. It could grow as long as 27 meters from head to tail. Its adult weight was an astounding 20,000 to 25,000 kilos.\nLike other sauropods, the Barosaurus was an herbivore. It utilized its long neck to reach for vegetation even at the top of trees. It had heavy legs and a long tail.\nOne of the biggest threats of the Barosaurus was the Jurassic theropods. It relied on its size and strength to defend itself against such predators.\n\nNomenclature\nThe Barosaurus was named for its stature and build.\nThe prefix 'baro' is derived from the Greek word 'baria' which means 'heavy'. The suffix 'saurus' translates to 'lizard' in English. It also has Greek origins. Thus the name Barosaurus was chosen to indicate 'the hefty lizard'.\nThe species name Barosaurus lentus means 'leisurely' in Latin. It was selected to denote the sluggish gait of the Barosaurus.\nThe christening of the remains was done was Othniel Charles Marsh.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Barosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Diplodocidae",
+    "Genus": "Barosaurus"
   },
   {
-      "name": "Brachiosaurus",
-      "description": "Brachiosaurus Brachiosaurus were so big that they are thought to have two hearts to be able to pump blood way up their necks.\n"
+    "name": "Brachytrachelopan",
+    "shortDescription": "Brachytrachelopan There is only one known Brachytrachelopan fossil finding which was discovered in Argentina, South America.\n",
+    "longDescription": "The Brachytrachelopan was a sauropod dinosaur that lived in the latter ages of the Jurassic period. Based on the age of the fossils, it is estimated that the Brachytrachelopan existed about 155 to 150 million years ago. This time period covered the end of the Kimmeridgian age and the beginning of the Tithonian age.\nThe Brachytrachelopan belonged to the family Dicraeosauridae. The species of this family had smaller neck sizes as compared to other Jurassic sauropods. The neck of the Brachytrachelopan was amongst the shortest of the group. This distinguished it very clearly in the family and its name mirrors this fact.\nThe length of the Brachytrachelopan was about 9 to 11 meters. Its weight was presumed to be 5 to 10 tons. It was indeed a large dinosaur but was much smaller as compared to other sauropods, some of which attained an adult weight of 40 tons.\nThe remains of the Brachytrachelopan were discovered in Argentina. It is theorized that the shorter neck of the organism was an adaptation for the South American environment. The Brachytrachelopan was an herbivore and it is believed that vegetation in its environment was low lying.\n\nEtymology\nThe translation of the name ‘Brachytrachelopan’ is threefold. The prefix ‘brachy’ is used to denote ‘short’. It has Greek origins and is seen very commonly in scientific names such as ‘brachycephalic’, ‘brachydactyly’, etc. The word ‘trachelos’ translates to neck in English. ‘Pan’ is the Greek god of wild mountains, shepherds and flocks.\nThus Brachytrachelopan roughly translated to ‘a small-necked Pan’. \nThe remains of the Brachytrachelopan were discovered by an Argentinian shepherd. The species name Brachytrachelopan mesai honors that shepherd, Daniel Mesa.\nThe christening of the dinosaur was done by paleontologist Oliver Rauhut in 2005.\n\nDiscovery of fossils\nThe remains of the Brachytrachelopan were discovered in Canadon Calcero Formation in Chubut, Argentina. They were found by Daniel Mesa, a local sheep farmer who was out to retrieve his flock back from their grazing time.\nThey were first examined by scientists Rauhut, Fechner and associates. \n\nNature of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Brachytrachelopan.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Dicraeosauridae",
+    "Genus": "Brachytrachelopan"
   },
   {
-      "name": "Brachytrachelopan",
-      "description": "Brachytrachelopan There is only one known Brachytrachelopan fossil finding which was discovered in Argentina, South America.\n"
+    "name": "Brontosaurus",
+    "shortDescription": "Brontosaurus Brontosaurus was first discovered in 1879 by Othniel Charles Marsh.\n",
+    "longDescription": "The Brontosaurus was one of the largest creatures to ever walk the earth, dinosaur or otherwise. It grew to gargantuan sizes. Its adult length is estimated to be 70 to 77 feet. Its weight is thought to be about 2.8 metric tons, but scientists speculate that some specimens could grow to 3.4 to 3.6 metric tons.\nThe Brontosaurus existed in the late Jurassic period. Its fossils were discovered in America in 1877. The timeline of the existence of the Brontosaurus is believed to be 151 to 149 million years ago. This lies in both the Kimmeridgian and Tithonian ages of the Jurassic period. It was a sauropod dinosaur.\nLike other sauropods, the Brontosaurus was a plant eating dinosaur. Due to its dimensions, adult dinosaurs were rarely attacked by the carnivorous theropods. But young dinosaurs were very vulnerable to predators.\nIn the early twentieth century, paleontologists started noticing similarities between the Apatosaurus and the Brontosaurus. Riggs published a paper stating that the two dinosaurs were synonymous and some scientists concurred. But the name Brontosaurus was finally disregarded in 1979. \nYet, the Brontosaurus has been a pop culture icon. Cartoon characters such as the Flintstones were seen eating ‘bronto burgers (ignoring the fact that early humans appeared on the earth about 140 million years after the extinction of the Brontosaurus!).\n\nEtymology\nThe name Brontosaurus is derived from Greek words. ‘Bronto’ translates to ‘thunder’ in English. The suffix ‘-saurus’ is coined from the Greek word ‘sauros’ which translates to ‘lizard’. Thus, Brontosaurus denotes ‘thunderous lizard’.\nThe word ‘Apato’ means ‘illusory’.\nThe species name B. excelsus translates to ‘transcendent’. The Brontosaurus excelsus is now the Apatosaurus excelsus.\nAll of these names were coined by O. C. Marsh.\n\nDiscovery of fossils\nThe errors in the identification and classification of the Brontosaurus had arisen because of the competitive nature of the ‘Bone wars’ between O. C. Marsh and E. D. Cope.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Brontosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Diplodocidae",
+    "Genus": "Brontosaurus"
   },
   {
-      "name": "Brontosaurus",
-      "description": "Brontosaurus Brontosaurus was first discovered in 1879 by Othniel Charles Marsh.\n"
+    "name": "Camarasaurus",
+    "shortDescription": "Camarasaurus  The Camarasaurus measured to roughly 48ft in length and 15ft in height.\n",
+    "longDescription": "If periods could be rewound, you would probably opt for the Jurassic period and have a glimpse of what it had to offer for its people. Besides other beautiful things and creatures that the age had to offer, the stunning North American creature-camarasaurus presents the best of the era. Needless to say, this creature, belonging to the sauropod dinosaur group, was the most common of the group members.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Camarasaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Saurischia",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Camarasauridae",
+    "Genus": "Camarasaurus"
   },
   {
-      "name": "Camarasaurus",
-      "description": "Camarasaurus  The Camarasaurus measured to roughly 48ft in length and 15ft in height.\n"
+    "name": "Camptosaurus",
+    "shortDescription": "Camptosaurus Camptosaurus was first described by O.C marsh in 1879, but called the dinosaur a Camptonotus. The name was changed to Camptosaurus in 1885 because the first name was taken for an insect.\n",
+    "longDescription": "The Compsognathus was a petit dinosaur that existed in the Upper Jurassic period. Two specimens were found which are attributed to the Compsognathus, the first from Germany and the second from France. The former belonged to the late Kimmerdigian age and the latter was from the early Tithonian age. Thus, the Compsognathus was in existence about 153 to 148 million years ago.\nThe size of the Compsognathus was very small. It grew to a maximum known length of 4.5 feet. Its adult weight was estimated to be a little above 3 kilos. The German fossils were significantly smaller than the French fossils. And the two were discovered over a century apart. Thus the Compsognathus was presumed to the size of a pigeon or a chicken. It was considered to be the smallest known dinosaur for a very long time. After the excavation of the French remains, it was determined that the Compsognathus was larger than first assumed.\nThere are many structural similarities between the Compsognathus and the Archaeopteryx. And of both these creatures were discovered in the same Solnhofen region of Germany. Hence it was postulated that the Compsognathus may have had feathers. Although it was later determined that the Compsognathus was devoid of feathers, the resemblance between the two species is very significant. It indicates that birds and compsognathid dinosaurs most likely had a common ancestor.\n\nEtymology\nThe name Compsognathus is composed of two words. 'Compso' is derived from the Greek word 'kompsos' which means 'sophisticated' or 'graceful'. The word 'gnathos' also has Greek origins and translates to 'snout' or 'jaw' in English. Thus, the name Compsognathus denotes 'a graceful jaw'. This name was most likely chosen because of the dinosaurâ€™s small size.\nThe specific name Compsognathus longipes denotes 'long legs'. The word 'pes' translates to 'foot' or 'legs'.\nThe remains were christened by scientist Johann A. Wagner in 1861.\n\nDiscovery of fossils\nThe holotype of the Compsognathus was discovered by Joseph Oberndorfer in 1859. He discovered it in the lagoons of Solnhofen, Germany. This region lies in the Painten Formation.\nThe second remains were found in Canjuers, France. These were discovered by Louis Ghirardi in 1971. Thus, these fossils were excavated 112 years after the discovery of the holotype.\nBoth these fossils had near complete skeletons.\n\nClassification",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Camptosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Ornithopoda",
+    "Family": "Camptosauridae",
+    "Genus": "Camptosaurus"
   },
   {
-      "name": "Camptosaurus",
-      "description": "Camptosaurus Camptosaurus was first described by O.C marsh in 1879, but called the dinosaur a Camptonotus. The name was changed to Camptosaurus in 1885 because the first name was taken for an insect.\n"
+    "name": "Ceratosaurus",
+    "shortDescription": "Ceratosaurus  The Ceratosaurus was about twelve feet high and over thirty feet long.\n",
+    "longDescription": "The Ceratosaurus was a relatively small theropod dinosaur. It was carnivorous and bipedal. It was in existence in the latter part of the Jurassic period. This was the border of the Kimmeridgian and Tithonian ages. The approximate time of its presence on the earth was 155 t0 145 million years ago.\nThe length of the Ceratosaurus was about 18 to 20 feet. Its weight is estimated at 0.6 to 1 ton. Although these proportions are not meagre by themselves, when juxtaposed with other theropods, seem small. Ceratosaurids like the Allosaurus weighed as much as 3 tons.\nThe characteristic features of the Ceratosaurus were its super sharp teeth and the bony crests present on its head. These features have made the Ceratosaurus a favorite amongst artists and film makers. Dinosaurs with crests like those of the Ceratosaurus have been depicted in various motion pictures such as Fantasia, Jurassic Park III, etc.\nFossils of the Ceratosaurus have been discovered in North America and Europe. Although both of these continents were not properly connected in the Jurassic period as Africa and South America were, it is very possible for the same dinosaur to evolve on different continents.\n\nEtymology\nThe Ceratosaurus is named for the typical tall ridges on its skull bones. ‘Cerato’ is derived from the Greek word ‘keratos’ which translates to ‘horn’ in English. ‘Saurus’ is derived from the Greek word ‘sauros’ which means ‘lizard’. Thus, the name Ceratosaurus was chosen to convey ‘horned lizard’.\nThe species name C. nasicornis translates to ‘horns on nose’. The sub species dentisulcatus roughly means ‘furrowed teeth’ and the sub species C. magnicornis means ‘large horn’.\nThe name for the remains was chosen by Othniel Charles Marsh.\n\nDiscovery of fossils\nThe fossils of the Ceratosaurus were discovered in the Cleveland Lloyd Dinosaur Quarry in Utah, Dry Mesa Quarry in Colorado and the Lourinha Formation in Portugal.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Ceratosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "Family": "Ceratosauridae",
+    "Genus": "Ceratosaurus"
   },
   {
-      "name": "Ceratosaurus",
-      "description": "Ceratosaurus  The Ceratosaurus was about twelve feet high and over thirty feet long.\n"
+    "name": "Coelurus",
+    "shortDescription": "Coelurus  Coelophysis was three meters long and it had only three functional digits, the fourth embedded in the flesh of the hand.\n",
+    "longDescription": "Coelurus - The Breast Footed Dinosaur",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Coelurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": " \tTheropoda",
+    "Family": "Coeluridae",
+    "Genus": "Coelurus"
   },
   {
-      "name": "Coelurus",
-      "description": "Coelurus  Coelophysis was three meters long and it had only three functional digits, the fourth embedded in the flesh of the hand.\n"
+    "name": "Compsognathus",
+    "shortDescription": "Compsognathus  In 1901 10 egg fossils were found that were thought to belong to the Compsognathus species. It wasn't until 1993 that researchers determined that they were most likely from a Sinosauropteryx.\n",
+    "longDescription": "The Compsognathus was a petit dinosaur that existed in the Upper Jurassic period. Two specimens were found which are attributed to the Compsognathus, the first from Germany and the second from France. The former belonged to the late Kimmerdigian age and the latter was from the early Tithonian age. Thus, the Compsognathus was in existence about 153 to 148 million years ago.\nThe size of the Compsognathus was very small. It grew to a maximum known length of 4.5 feet. Its adult weight was estimated to be a little above 3 kilos. The German fossils were significantly smaller than the French fossils. And the two were discovered over a century apart. Thus the Compsognathus was presumed to the size of a pigeon or a chicken. It was considered to be the smallest known dinosaur for a very long time. After the excavation of the French remains, it was determined that the Compsognathus was larger than first assumed.\nThere are many structural similarities between the Compsognathus and the Archaeopteryx. And of both these creatures were discovered in the same Solnhofen region of Germany. Hence it was postulated that the Compsognathus may have had feathers. Although it was later determined that the Compsognathus was devoid of feathers, the resemblance between the two species is very significant. It indicates that birds and compsognathid dinosaurs most likely had a common ancestor.\n\nEtymology\nThe name Compsognathus is composed of two words. 'Compso' is derived from the Greek word 'kompsos' which means 'sophisticated' or 'graceful'. The word 'gnathos' also has Greek origins and translates to 'snout' or 'jaw' in English. Thus, the name Compsognathus denotes 'a graceful jaw'. This name was most likely chosen because of the dinosaur's small size.\nThe specific name Compsognathus longipes denotes 'long legs'. The word 'pes' translates to 'foot' or 'legs'.\nThe remains were christened by scientist Johann A. Wagner in 1861.\n\nDiscovery of fossils\nThe holotype of the Compsognathus was discovered by Joseph Oberndorfer in 1859. He discovered it in the lagoons of Solnhofen, Germany. This region lies in the Painten Formation.\nThe second remains were found in Canjuers, France. These were discovered by Louis Ghirardi in 1971. Thus, these fossils were excavated 112 years after the discovery of the holotype.\nBoth these fossils had near complete skeletons.\n\nClassification",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Compsognathus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": " \tTheropoda",
+    "Family": "Compsognathidae",
+    "Genus": "Compsognathus"
   },
   {
-      "name": "Compsognathus",
-      "description": "Compsognathus  In 1901 10 egg fossils were found that were thought to belong to the Compsognathus species. It wasn't until 1993 that researchers determined that they were most likely from a Sinosauropteryx.\n"
+    "name": "Dilophosaurus",
+    "shortDescription": "Dilophosaurus Dilophosaurus is probably the dinosaur that most commonly is mistaken for certain features of it due to Jurassic Park.\n",
+    "longDescription": "The Dilophosaurus was an early Jurassic dinosaur. It existed on the earth about 199 to 189 million years ago. This period extended from the Hettangian to the Pliensbachian ages of the Jurassic. It was a carnivorous, bipedal dinosaur.\nThe Dilophosaurus is classified under sub order Theropoda. Its fossils were discovered in North America. Like other Lower Jurassic theropods, it was moderately large in size, growing to an average adult size of about 6 to 7.5 meters. Its weight is estimated to be around 500 to 600 kilos. Such dimensions were modest as compared to the larger Cretaceous theropods which could weigh ten times as much.\nThe most prominent features of the Dilophosaurus were the ridges present on its skull. These formed a large part of its head and were believed to be embellishments only. They were very fragile to be used as a weapon. \nThe movie Jurassic Park has shown the Dilophosaurus having a distinctive retractable hood. There is no evidence that the Dilophosaurus possessed such a structure. If it did, it would be composed of soft tissue; and soft tissues are difficult to judge based on bony remains.\n\nNomenclature\nThe Dilophosaurus is named after its conspicuous crests. The prefix 'di' stands for 'two'. The word 'lophos' is a Greek word denoting 'ridge'. The suffix '-saurus' is derived from the Greek word 'sauros' which translates to 'lizard'. Thus the name 'Dilophosaurus' means 'a lizard with two ridges'.\nThe binomial name Dilophosaurus wetherilli was derived from the species name of the Megalosaurus.\nThe fossils were named by paleontologist Samuel Welles.\n\nDiscovery of fossils",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Dilophosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "Family": "Dilophosauridae",
+    "Genus": "Dilophosaurus"
   },
   {
-      "name": "Dilophosaurus",
-      "description": "Dilophosaurus Dilophosaurus is probably the dinosaur that most commonly is mistaken for certain features of it due to Jurassic Park.\n"
+    "name": "Diplodocus",
+    "shortDescription": "Diplodocus  The Diplodocus was one of the largest dinosaurs ever to be discovered. Its average size was 88ft in length.\n",
+    "longDescription": "Diplodocus lived some 147 to 150 million years ago. The word Diplodocus is a Neo-Latin word and it means double beam. Its double beam chevron bones were located under its tail. Hence the name was given to this species. The web defines it as long necked and tailed herbivore. It belonged to region now located in the western side of North America. They lived during the Jurassic period. This category of dinosaurs belongs to family called Sauropoda. They were quite gigantic and were found extensively during the Triassic period. Sauropoda, the name is derived form a word which means lizard foot.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Diplodocus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Diplodocidae",
+    "Genus": "Diplodocus"
   },
   {
-      "name": "Diplodocus",
-      "description": "Diplodocus  The Diplodocus was one of the largest dinosaurs ever to be discovered. Its average size was 88ft in length.\n"
+    "name": "Europasaurus",
+    "shortDescription": "Europasaurus  It has been suggested that the ancestor of Europasaurus would have dwarfed rapidly after immigrating to a paleo-island because of lack of food.\n",
+    "longDescription": "The Europasaurus was a dwarf dinosaur that lived in present day Germany. It existed in the latter half of the Jurassic period. This was about 156 to 149 million years ago. This stage lies in the Kimmeridgian to the Tithonian ages of the Jurassic period.\nThe Europasaurus is classified family Brachiosauridae of sub order Sauropodomorpha. This family consists of dinosaurs with long necks and gigantic body sizes.\nThe Europasaurus was unusually small for a Jurassic sauropod. It could achieve a maximum adult size of about 20 feet. Although this may seem like considerably large size, other members of the family Brachiosauridae could grow as long as 80 feet and weighed 40 to 50 tons. Its weight is estimated at about 500 to 700 kilos. It is believed that the Europasaurus was a dwarf species that developed do the limited resources present in its environment.\n\nEtymology\nThe name Europasaurus is comprised of two words. 'Europa' stands for 'Europe'. The suffix 'saurus' is derived from the Greek word 'sauros' which means 'lizard'. Thus the name 'Europasaurus' translates to 'lizard from Europe'.\nThe specific name Europasaurus holgeriis chosen to honor HolgerLudtke, who discovered the fossils of the Europasaurus.\nThe nomenclature of the remains of the Europasaurus was done by a group of scientists, Sander, Mateus, Laven, etc.\n\nClassification\nThe Europasaurus is classified under sub order Sauropodomorpha, clade Neosauropoda and clade Macronaria. Macronaria is a class that includes dinosaurs with large nostrils such as the Brachiosaurus and the Camarasaurus. The Europasaurus is believed to be slightly more evolved than the Camarasaurus. Except for its size, the Europasaurus fairly resembles the Brachiosaurus.\nThis relationship with the higher sauropods indicates that the dwarfism seen in the genus Europasaurus is an acquired trait. It most likely developed this condition when its surroundings could not sustain its large size.\n\nIsland dwarfism",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Europasaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Brachiosauridae",
+    "Genus": "Europasaurus"
   },
   {
-      "name": "Europasaurus",
-      "description": "Europasaurus  It has been suggested that the ancestor of Europasaurus would have dwarfed rapidly after immigrating to a paleo-island because of lack of food.\n"
+    "name": "Fruitadens",
+    "shortDescription": "Fruitadens  The Fruitadens is the smallest known dinosaur of the Ornithischian group to exist today.\n",
+    "longDescription": "There is a common perception among the lay population that all dinosaurs were of gigantic dimensions. This theory was stood on its head with the unearthing and subsequent identification of the fossils of the Fruitadens Haagarorum\n\nEtymology\nThe word Fruitadens is often literally translated and taken to mean “fruit tooth” or “teeth like fruits”. The truth is that the Fruitadens Haagarorum is fundamentally named after the Fruita fossil region of Colorado, United States of America where its fossils were first excavated at the base of the Brushy Basin Member of the Morrison Formation. The creature's full name is Fruitadens Haagarorum. The appellation haagarorum is a tribute to Paul Haaga Jr, President of the Board of Trustees of the Natural History Museum of Los Angeles County where the fossils were stored after discovery..",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Fruitadens.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "Family": "Heterodontosauridae",
+    "Genus": "Fruitadens"
   },
   {
-      "name": "Fruitadens",
-      "description": "Fruitadens  The Fruitadens is the smallest known dinosaur of the Ornithischian group to exist today.\n"
+    "name": "Guanlong",
+    "shortDescription": "Guanlong  the wording \"Guanlong\" means Crowned Dragon because of the two crests on its head.\n",
+    "longDescription": "What’s three meters long, was very fast on its legs and used to haunt the late Jurassic forest which is today, the as North-Western China? It was, the ‘crown dragon’ aka, the Guanlong. A Tyrannosauroidea of the Proceratosauridae family.\n\nEven though the name may sound unfamiliar, and a little too scientific, you must’ve seen them, in the numerous dinosaur based movies. Right from the Jurassic Park, to King Kong. They were those medium built dinosaurs, who used to run in herds, and more often than not, attack dinosaurs way bigger in size than them. \n\nIt may come as a surprise, that though the Guanlong, has been considered by many scientists, to be the earliest known ancestor of the terrifying Tyrannosaurus, yet, it lived on long after even when all the other dinosaurs had become extinct due to the meteor that had hit earth at that point of time. \n\nA search for oil, unearthed the fossil of the dinosaur instead, in the north western Chinese desert recently. A team from the Institute of Vertebrate Paleontology, China was instrumental in identifying this 160 million old species, that roamed the lands of China. The team, was headed by Xing Xu and assisted by Prof. James M. Clark from the George Washington university.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Guanlong.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "Family": "Proceratosauridae",
+    "Genus": "Guanlong"
   },
   {
-      "name": "Giraffatitan",
-      "description": "Giraffatitan  The Giraffatitan is also known as the Brachiosaurus which means \"arm lizard\", from the Greek brachion (\"arm\") and sauros (\"lizard\").\n"
+    "name": "Haplocanthosaurus",
+    "shortDescription": "Haplocanthosaurus There has never been a skull fossil of a Haplocanthosaurus ever discovered. The descreption of the dinosaur was based by the body parts that were found.\n",
+    "longDescription": "Haplocanthosaurus - the Dwarf Dino of 49 Feet",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Haplocanthosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Haplocanthosauridae",
+    "Genus": "Haplocanthosaurus"
   },
   {
-      "name": "Guanlong",
-      "description": "Guanlong  the wording \"Guanlong\" means Crowned Dragon because of the two crests on its head.\n"
+    "name": "Heterodontosaurus",
+    "shortDescription": "Heterodontosaurus Heterodontosaurus fossils have been found in Africa.\n",
+    "longDescription": "Dinosaurs are believed to have evolved approximately 230 million years ago from the primitive archosaurs. Archosaurs were believed to be the rulers during the Mesozoic era however they were comparatively smaller than Dinosaurs . Dinosauria is a Greek word which means ‘fearfully great lizard’ and this was originally coined by Sir Richard Owen, a paleontologist of British Origin. These Dinosaurs have left their footprints on our planet and are still believed to be the most successful animals who have not only survived for ages but also formed and evolved themselves into diverse living habitats. \nThe Heterodontosaurus was a four feet long dinosaur and weighed around 20 kg and possess a very distinguishing feature that has a very debatable evolutionary significance. It had varied sets of teeth that came in different sizes. Something that is very uncommon in the Dinosaur fraternity. In the front were sharp teeth, followed by canine tusks and then grinding teeth that were more like chisels. They were characterized by a long narrow pelvis and a pubis which have a close resemblance to more advanced Ornithischians.\nHeterodontosaurus was first discovered and described in 1962 by Alan J. Charig and Alfred W. Crompton at the Lower Jurassic Upper Red Beds of northern slopes of the Krommerspruit Mountain near Voisana located in South Africa. But it was only the head that was discovered then. However it was almost fifteen years later in 1976 that a full body well preserved fossil specimen was discovered and it had the look as if the saurus had died while in action. The juvenile Heterodontosaurus skull is currently kept in the collections of the Iziko South African Museum.\n\nIziko South African Museum\nDetailed examinations of the skull suggests that the presence of developed teeth sets were not only restricted to males or females, in fact these were also found in the young specimens. This have dismissed the long believed idea that the teeth were specifically used by the males to fight off the other males in the territory. Rather scientists have now accepted that these teeth were in fact used for eating and defense.\nExperts believe that dinosaurs had in general evolved from carnivorous ancestors. Heterodontosarus were among the earliest dinosaurs with a herbivorous habit and their teeth hence represents the transition between their carnivorous ancestors and the more sophisticated fully herbivore descendants. Fossil studies also indicate that juvenile Heterodontosaurus were having relatively large eyes and a shorter snout when compared to the adult form.\nStudies suggest that the diet of the youngsters were very much like that of the adults. Experts suggest that with the help of strong forelimbs and sharp canine teeth the little Dinosaurs fed on roots. They used their five fingered hands to dig them up and their canine teeth to break the root open.\nX-rays and CT scans have also pointed out a new mystery. A lack of replacement teeth have been observed in both juvenile and adult Heterodontosaurus. It is the characteristic of most reptiles to continually replace their broken and worn out teeth with new ones.Â  It has been observed in various dinosaur fossils also that size of the teeth varies with the age. Whereas it is a characteristic of the mammal to replace their teeth only once in their life span by replacement of both the upper and lower jaw into an efficient and tight fitting. Heterodontosaurus in fact were more similar to mammals though not specialized. They possess the mammalian features of variable shaped teeth, tight arrangement of the teeth along with late replacement of old and worn out teeth.\nHeterodontosaurus had quite unusual fore-arms as they had five fingers among which two fingers opposed the other three. Experts believe they had the ability to pick up small things with one hand only. These reptile fossils date back to around 195 million years old.\nThe systematic classification of Heterodontosaurus was analyzed using restricted taxa sample. Ornithischian position has however been affirmed.  Ornithischian dinosaurs are generally believed to be entirely plant-eaters and are represented by a variety of dinosaurs starting from the horned dinosaurs, the duck-billed dinosaurs to the armored dinosaurs. The best hypothesis however positions heterodontosauridae in basal positions (non-genasurian) but again there is inadequate information on proximate out-group anatomy and other complete details . Phylogenetic perspectives however suggests that they occupied a crucial position on ornithischian dinosaur evolution. These reptiles are systematically classified under the Order-Ornithischia, Family-Heterodontosauridae , Genus- Heterodontosaurus.\nIt should also be mentioned that Tianyulon , discovered in China possessed hollow feather-like structures . Heterodontosaurus however were proven to stop existing 60 million years earlier yet experts believe these two to be a close relative to each other. However they have been believed to be associated with the evolution of feathers in dinosaur history.\nThis dinosaur hadcheek pouches for storing food while chewing . Their front legs were however smaller than the back legs but were also very strong. They also had a very long and flexible tail. The Heterodontosaours have been in a dormant state of research as recent articles suggest as much not has been published since the 1970’s. A 1976 note however describes the anatomy of these dinosaurs from studying a complete skeleton. As far as paleozoology goes a complete skeleton and that too of a Dinosaur is nothing that common and hence these papers are as a matter of fact great importance to science. \nPrevious articles are however positioning the hetertodontosaurs in a late Triassic period rather than early Jurassic. Again recently however there has been a few studies on the detail of cranial anatomy of the Heterodonts. Experts review the paper on the Juvenile Cranial Anatomy to be good value and being quite informative. While the other paper focuses basically on morphology and cranial anatomy and is available in Zoological Journal of Linnaen Society through Wiley’s publication. This articles that have been published in 2011 have however been inspired by the notes as well as the illustrations of Alan Charig and were passed on to Lead author David Norman as Charig passed away in 1997. This hereby makes it a touching story behind a very important anatomical discussion.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Heterodontosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "Family": "Heterodontosauridae",
+    "Genus": "Heterodontosaurus"
   },
   {
-      "name": "Haplocanthosaurus",
-      "description": "Haplocanthosaurus There has never been a skull fossil of a Haplocanthosaurus ever discovered. The descreption of the dinosaur was based by the body parts that were found.\n"
+    "name": "Juravenator",
+    "shortDescription": "Juravenator  The Juravenator means Jura Mountains hunter in Greek.\n",
+    "longDescription": "Juravenator – The Beautiful Tiny Dinosaur",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Juravenator.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Theropoda",
+    "SubOrder": "Tyrannoraptora",
+    "Genus": "Juravenator"
   },
   {
-      "name": "Heterodontosaurus",
-      "description": "Heterodontosaurus Heterodontosaurus fossils have been found in Africa.\n"
+    "name": "Laosaurus",
+    "shortDescription": "Laosaurus  The Laosaurus was first described by O.C. Marsh in 1878.\n",
+    "longDescription": "Laosaurus, as the name implies was a stone lizard or fossil lizard. It was classified under the genre hypsilophodontidae.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Laosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Cerapoda",
+    "Family": "Hypsilophodontidae",
+    "Genus": "Laosaurus"
   },
   {
-      "name": "Huayangosaurus",
-      "description": "Huayangosaurus  The Huayangosaurus was one of the earlier plated dinosaurs which was very primitive with a broad skull and teeth in the front of its mouth.\n"
+    "name": "Lesothosaurus",
+    "shortDescription": "Lesothosaurus  The Lesothosaurus is one of the most early ornithischians (bird-hipped dinosaur).\n",
+    "longDescription": "Lesothosaurus- the Bird Footed Dinosaurs",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Lesothosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Genasauria",
+    "Family": "Lesothosauridae",
+    "Genus": "Laosaurus"
   },
   {
-      "name": "Juravenator",
-      "description": "Juravenator  The Juravenator means Jura Mountains hunter in Greek.\n"
+    "name": "Lexovisaurus",
+    "shortDescription": "Lexovisaurus  The Lexovisaurus was a dinosaur specie that was much like a Stegosaurus. It has round pointed spines like a Stegosaurus.\n",
+    "longDescription": "Lexovisaurus - The Dinosaur with Plates",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Lexovisaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Stegosauria",
+    "Genus": "Lexovisaurus"
   },
   {
-      "name": "Kentrosaurus",
-      "description": "Kentrosaurus  The Kentrosaurus used its spines on its back to regulate its body temperature.\n"
+    "name": "Massospondylus",
+    "shortDescription": "Massospondylus \nMost of the Massospondylus fossils were discovered in the Country of Africa in Namibia, Zimbabwe and South Africa.\n\n",
+    "longDescription": "Massospondylus were one of the strangest dinosaurs to ever exist. They were herbivores. The word Massospondylus is pronounced like mas-o-spon-di-lus. Massospondylus was known to be lived in North America and Southern Africa during the late Triassic period to the Early Jurassic period which is about 200 million years ago. It is said to be a strange dinosaur because of the shape of its limbs and the body.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Massospondylus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Sauropodomorpha",
+    "SubOrder": "Plateosauria",
+    "Family": "Massospondylidae",
+    "Genus": "Massospondylus"
   },
   {
-      "name": "Laosaurus",
-      "description": "Laosaurus  The Laosaurus was first described by O.C. Marsh in 1878.\n"
+    "name": "Megalosaurus",
+    "shortDescription": "Megalosaurus  The first Megalosaurus fossil was discovered in 1676 in England.\n",
+    "longDescription": "Megalosaurus (pronounced Meg-ah-low-sore-uss) or ‘Great Lizard’ was reigning the planet around a hundred and eighty million years ago. Their fossils were first discovered in England. However there also has been excavations of similar fossil types and they have been included under Megalosaurus, but the certain remains from Megalosaurus come from Oxfordshire’s Late Middle Jurassic.\n",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Megalosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Theropoda",
+    "Family": "Megalosauridae",
+    "Genus": "Megalosaurus"
   },
   {
-      "name": "Lesothosaurus",
-      "description": "Lesothosaurus  The Lesothosaurus is one of the most early ornithischians (bird-hipped dinosaur).\n"
+    "name": "Miragaia longicollum",
+    "shortDescription": "Miragaia longicollum The Miragaia Longicollum was named this just recently.\n",
+    "longDescription": "Stegosaurian dinosaurs have been described by paleontologists as a quadrupled stance herbivore with characteristically short limb and short neck. Over the years stegosaurs have been known to be characteristically low grazers. \nThe genus Miragaia is quite an unique stegosaur and his family members from thyreopean clan. It has a characteristic long neck consisting of seven vertebrae. This is more than any other sauropod of that era. Miragaia has been discovered and named by Octavio Mateus in a Lourhina dig-site belonging to the late Jurassic period. The generic name refers to the village Miragaia. Another school of thought has referred to an allusion to Mira being the Latin of wonderful and Gaia refers to earth goddess. As far as the specific name is concerned collum is the Latin for neck. Hence longicollom means long neck.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Miragaia.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Stegosauria",
+    "Family": "Stegosauridae",
+    "Genus": "Miragaia longicollum"
   },
   {
-      "name": "Lexovisaurus",
-      "description": "Lexovisaurus  The Lexovisaurus was a dinosaur specie that was much like a Stegosaurus. It has round pointed spines like a Stegosaurus.\n"
+    "name": "Monolophosaurus",
+    "shortDescription": "Monolophosaurus Before the Monolophosaurus got its name the news press though that it was a Jiangjunmiaosaurus.\n",
+    "longDescription": "The word 'Monolophosaurus' means single crested lizard. Monolophosaurus was a medium sized theropod dinosaur. They existed during the Middle Jurassic period. This dinosaur was named so because of the presence of a distinct single crest on its skull. \nThe only species known till date is Monolophosaurus jiangi. Fossil studies show that these lizards generally measured five meters in length and weighed something around one thousand and five hundred pounds. It is believed that Monolophosaurus generally hunted in packs although scientific evidence is still lacking. Fossil studies indicate them to be crested dinosaurs like Dilophosaurus and they were related. Monolophosaurus was a close relative of advanced tetanurans. Monolophosaurus was known to have sharp and serrated teeth. The places where their fossils were found showed signs of water. Hence it can be inferred that these species generally inhabited shores of oceans and lakes.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Monolophosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Saurischia",
+    "SubOrder": "Theropoda",
+    "Family": "Megalosauroidea",
+    "Genus": "Monolophosaurus"
   },
   {
-      "name": "Limusaurus",
-      "description": "Limusaurus  The Limusaurus is a great example to show that its possible that dinosaurs did not evolve into birds.\n"
+    "name": "Nanosaurus",
+    "shortDescription": "Nanosaurus Nanosaurus actually means \"dwarf Lizard\" and was described in 1877 but their is minimal information about this dinosaur because there has not been many finding.\n",
+    "longDescription": "Nanosaurus (pronounced nan-uh-sore-us) was possibly one of the smaller dinosaurs to have existed in the clan of these giant creatures. Fossil records suggest that they were anything around two feet tall and four feet long. Most of the people believe these creatures to be anything around the size of an average sized dog of today mostly so because mostly they have been referred as such in most of the popular books. In depth studies suggest these animals were herbivores in nature. They probably survived most possibly on shrubs and small plants. They could also have fed on small animals and insects.\nThe name Nanosaurus was accepted from the fossil findings of a jumbled skeleton that was discovered in the hard sandstone region of the Cope area. It was basically used as a synonym for ‘Dwarf Lizard’.\nMost of the Nanosaurus fossils have been found in Colorado and parts of Wyoming. This is not a huge area as a matter of fact they mostly are believed to be originated from west central region of North America during 150 million years ago in the Late Jurassic Period.\nFossil studies suggest that Nanosaurus belonged to Genus Ornithopod. Basically Ornithopod was more of a poorly known genus. It should be mentioned that Camptosaurus was one among them. Camptosaurus was mostly herbivorous by nature. \nA partial skeletal fossil of Nanosaurus was discovered in Golden Park by Lucas, more commonly known as Lucas quarries. This is said to be the only valid species of the genus Nanosaurus and was named Nanosaurus agilis. This fossil consists of a jawbone, a partial pelvis and a few limb bones. These remains were mostly fragmented and hence the later reconstruction of the animal was made based on observations of characters that closely resemble Othnelia.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Nanosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Neornithischia",
+    "Genus": "Nanosaurus"
   },
   {
-      "name": "Massospondylus",
-      "description": "Massospondylus \nMost of the Massospondylus fossils were discovered in the Country of Africa in Namibia, Zimbabwe and South Africa.\n\n"
+    "name": "Omeisaurus",
+    "shortDescription": "Omeisaurus Omeisaurus was found in the China region. It had unusual features than other in its group such as nostrils located close to the end of its nose.\n",
+    "longDescription": "Omeisaurus is the Greek derivative of Omei Mountain Lizard. It is to be pronounced as ‘oh-me-sore-us’. Fossil records suggest that Omeisaurus had previously inhabited in eastern Asia sometime around the Late Jurassic Period which would be around one hundred and sixty million years ago. Details of anatomical studies suggest that these were generally large creatures with exceptionally long necks and were believed to be herbivorous in nature. \nOmeisaurus has been believed to be the most common Sauropod that had inhabited Late Jurassic China. This is believed specifically because of the large number of fossil remains that have been discovered in this region. This unusually long animal had a large number of species that has been discovered in the past few decades. It is interesting to note that the smallest fossil discovered was around thirty feet in length from head to toe while there also have been fossils whose length alone have been measuring more than thirty feet. These animals were generally believed to have been moving in herds.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Omeisaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "SubOrder": "Sauropodomorpha",
+    "Family": "Mamenchisauridae",
+    "Genus": "Omeisaurus"
   },
   {
-      "name": "Megalosaurus",
-      "description": "Megalosaurus  The first Megalosaurus fossil was discovered in 1676 in England.\n"
+    "name": "Scutellosaurus",
+    "shortDescription": "Scutellosaurus Scutellosaurus was a herbivore that was found in Arizona. Only two partial fossil body structures have been found.\n",
+    "longDescription": "Scutellosaurus (pronounced skoo-tel-oh-sore-us) was a small plant eating dinosaur that generally inhabited North America during the early Jurassic Period sometime around two hundred million years ago. It is among the earliest known dinosaurs belonging to the armored clan. General fossil studies indicated that the Scutellosaurus measured four feet long and was about one foot eight inches tall at the hip region. They generally weighed around ten kilograms.\nScutellosaurus was characterized by the presence of hundreds of small bony plates. They had two large plates running down its spine. There were generally six different types of plates. These plates covered the animals' back and tail. Anatomical studies revealed that these bony outgrowths generally were derived from their epidermal region. These plates served as a protection against the larger meat eating and predatory animals. The name Scutellosaurus means Little Shielded Lizard. They were characterized by the presence of numerous scutes on their back. The general appearance resembled very much of a lizard but however their size was quite small. \nHowever detailed anatomical studies of the fossil suggested that the Scutellosaurus was a very good runner in spite of having large plates on their back. It should however be understood that in spite of having those plates, the best protection for a dinosaur from the massive predators were their fast pace. The Scutellosaurus had a long tail and a long body. Their hind legs were quite thin and much longer and they were generally helpful for fast running. However they have probably walked on all their four legs as it could have been easier to balance the heavily plated body. \nThe fossils of Scutellosaurus were found in North Arizona and they were believed to be living in hot and dry places. Their teeth were leaf shaped that were useful to snap off leaves. Anatomical studies of their skulls reveal that these animals did not have any cheek. Hence it can be inferred from this that the Scutellosaurus probably did not chew its food. It is presumed that they swallowed their food as a whole. \nThe genus Scutellosaurus was named by Edwin Harris Colbert (Ned). He was born on 28th September 1905 and passed away at the age of ninety six on 15th November 2001. Edwin was a distinguished vertebral paleontologist in America. He was regarded as a prolific researcher in the field of paleontology and had authored many books. \nEdwin was born in Clarinda, Iowa and spent his childhood in Maryville, Missouri. Colbert did his graduation from the University of Nebraska and completed his post graduation and doctorate from Columbia University in 1935. He was married to Margaret Matthew who happened to be the daughter of eminent paleontologist William Diller Matthew.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Scutellosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Thyreophora",
+    "Genus": "Scutellosaurus"
   },
   {
-      "name": "Miragaia longicollum",
-      "description": "Miragaia longicollum The Miragaia Longicollum was named this just recently.\n"
+    "name": "Segisaurus",
+    "shortDescription": "Segisaurus  The Segisaurus is known from only a few partial fossils discovered. It was closely related to the Procompsognathus.\n",
+    "longDescription": "Nowadays, kids are very much interested in learning more information about different types of dinosaurs especially after the great hit of Jurassic park film. There are different types of dinosaurs like killer dinosaurs, plant eating dinosaurs, armored dinosaurs, duck bills dinosaurs and flying dinosaurs. One such dinosaur is Segisaurus, which is a meat eater. Segisaurus was known to be lived in the early Jurassic period in North America (i.e.) 200 million years ago.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Segisaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Saurischia",
+    "SubOrder": "Theropoda",
+    "Family": "Coelophysoidea",
+    "Genus": "Segisaurus"
   },
   {
-      "name": "Monolophosaurus",
-      "description": "Monolophosaurus Before the Monolophosaurus got its name the news press though that it was a Jiangjunmiaosaurus.\n"
+    "name": "Stegosaurus",
+    "shortDescription": "Stegosaurus  The Stegosaurus Head fossil size was very small. There was also a large open area inside the region of the spinal cord. Some scientists believe that they had a second brain that shared responsibilities and functions of the brain.\n",
+    "longDescription": "Stegosaurus pronounced steg-oh-sore-us as the name suggests indicates covered lizard or roof lizard. These dinosaurs were believed to inhabit the woodlands of the western part of North America. Stegosaurus was believed to exist during the late Jurassic age approximately a hundred and fifty million years ago. These gentle giants were generally herbivorous by nature. They had a characteristic presence of two rows of large bone like plates on their back and a tail that had spikes. Their head was generally small when compared to their body size. The gait of the Stegosaurus was generally low hung and it had a brain that was the size of a walnut. \nThe presence of the plates have been believed to be used for defensive purposes as however big the stegosaurus may be there were bigger predators to hunt them. These bony plates were hence providing as much protection possible. Whilst there have been other schools of thought who believe that these plates served to dissipated the heat generated from the large body of the stegosaurus. This mechanism can be very much compared to the cooling mechanism that elephants use with their large floppy ears. \nThe discovery of stegosaurus itself has quite a bit of history involved in it that is worth mentioning. It scrolls back to the late nineteenth century when the so called bone wars was actually on its peak. The Stegosaurus discovery can be said to be the most distinctive discovery achieved during this period. In fact the appearance of the Stegosaurus fossil was also quite unique so much so that it was given a completely different genus.\nFactually the first type fossil of Stegosaurus was discovered in the Morrison formation which was located at a stretch in Colorado. Back in the year eighteen hundred and seventy seven the type fossil was named by Othniel Charles Marsh. Marsh was a noted paleontologist on that era. However initially Marsh was of the idea that he was dealing with a giant prehistoric turtle . He was of the opinion that the bony plates of his prehistoric roof lizard had been arranged flat on its body and served as armor. However it was not very long that his misconception was cleared,Â  thanks to the discovery of more Stegosaurus fossils in the later years. Marsh had by now realized his mistake and then later he properly assigned Stegosaurus in the late Jurassic period.\nHowever fortunately enough the general description of the Stegosaurus was broad enough for Marsh and his colleagues to include various other species under its genus umbrella. Some of the species later turned out to be dubiously named however that shall be discussed at some other article. For now we consider the relevant Stegosaurus species that have been discovered and studied the most till date.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Stegosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "SuperOrder": "Dinosauria",
+    "Order": "Ornithischia",
+    "SubOrder": "Stegosauria",
+    "Family": "Stegosauridae",
+    "Genus": "Stegosaurus"
   },
   {
-      "name": "Nanosaurus",
-      "description": "Nanosaurus Nanosaurus actually means \"dwarf Lizard\" and was described in 1877 but their is minimal information about this dinosaur because there has not been many finding.\n"
+    "name": "Supersaurus",
+    "shortDescription": "Supersaurus  A almost complete Fossil of the Supersaurus has been found and was nicknamed \"Jimbo\". It currently is located at the Wyoming Dinosaur Center.\n",
+    "longDescription": "Supersaurus has been regarded as a sauropod believed to be existing during the late Jurassic period. Supersaurus was characterized by a typical long neck and a long tail and was having a bulky body. Strangely it had a small head and naturally a small brain too. The characteristic that differentiated the Supersaurus from its massive cousins like Diplodocus and Argentinosaurus is the length of the entire body. \nFossil studies revealed that an adult Supersaurus could have easily measured anything around a massive one hundred and ten feet approximately. This length is almost equivalent to a soccer field.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Supersaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Superorder": "Dinosauria",
+    "Suborder": "Sauropodomorpha",
+    "Family": "Diplodocidae",
+    "Genus": "Supersaurus"
   },
   {
-      "name": "Omeisaurus",
-      "description": "Omeisaurus Omeisaurus was found in the China region. It had unusual features than other in its group such as nostrils located close to the end of its nose.\n"
-  },
-  {
-      "name": "Scutellosaurus",
-      "description": "Scutellosaurus Scutellosaurus was a herbivore that was found in Arizona. Only two partial fossil body structures have been found.\n"
-  },
-  {
-      "name": "Segisaurus",
-      "description": "Segisaurus  The Segisaurus is known from only a few partial fossils discovered. It was closely related to the Procompsognathus.\n"
-  },
-  {
-      "name": "Stegosaurus",
-      "description": "Stegosaurus  The Stegosaurus Head fossil size was very small. There was also a large open area inside the region of the spinal cord. Some scientists believe that they had a second brain that shared responsibilities and functions of the brain.\n"
-  },
-  {
-      "name": "Supersaurus",
-      "description": "Supersaurus  A almost complete Fossil of the Supersaurus has been found and was nicknamed \"Jimbo\". It currently is located at the Wyoming Dinosaur Center.\n"
-  },
-  {
-      "name": "Zigongosaurus",
-      "description": "Zigongosaurus  The Zigongosaurus was named by Hou, Chao, and Chu in 1976.\n"
+    "name": "Zigongosaurus",
+    "shortDescription": "Zigongosaurus  The Zigongosaurus was named by Hou, Chao, and Chu in 1976.\n",
+    "longDescription": "Zigongosaurus pronounced zee-gong-aw-sore-us was discovered in China in the year nineteen hundred seventy. Zigongosaurus is basically a sauropod. There have been opinions from different schools of thought that Zigongosaurus was the actual Mamenchisaurus. The first specimen of Zigongosaurus discovered was fortunately very much complete. Six years later this fossil was given the name by Hou, Chao, and Chu. Since the fossil prototype was discovered at the Zigong province in China, hence the name. This is just another name for Zigong lizard. Zigong is the third largest province in Sichuan City.\nThe fossil prototype discovered was similar to other lizard hipped dinosaurs that were discovered along with others. The body skeleton was generally quadrapedal by nature and bore a quite simple body plan. Hence they were assigned the group of Sauropods. The sauropods were having similar structures of long neck and tail. Skull and brain in all the sauropods were generally small. They had a characteristic presence of nostrils high up on the skull. In other dinosaurs, the nostrils are generally located at the extremities of the snout. In fact the nostrils were very close to the eyes. In the later stages the sauropods got evolved to bear body armor which was covering partially or entire body and were used for defensive purposes against the predator dinosaurs.",
+    "imageUrl": "http://www.dinosaurfact.net/Pictures/Zigongosaurus.jpg",
+    "Kingdom": "Animalia",
+    "Phylum": "Chordata",
+    "Class": "Sauropsida",
+    "Superorder": "Dinosauria",
+    "Suborder": "Sauropodomorpha",
+    "Family": "Mamenchisauridae",
+    "Genus": "Zigongosaurus"
   }
 ]
