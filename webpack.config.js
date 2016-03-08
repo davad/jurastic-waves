@@ -5,19 +5,22 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
 
 export default function webpackConfig(appConfig) {
-  const { APP_PORT, dev } = appConfig;
+  const { APP_PORT, dev, rootPath } = appConfig;
 
+  /**
+   * Explanation: https://github.com/webpack/docs/wiki/configuration
+   */
   let config = {
     context: __dirname,
     devtool: 'inline-source-map',
     entry: [
-      'webpack-dev-server/client?http://localhost:${APP_PORT}',
+      `webpack-dev-server/client?http://localhost:${APP_PORT}`,
       'webpack/hot/dev-server',
       './client/src/index.js'
     ],
     output: {
-      path: path.resolve(__dirname, './dist'),
-      publicPath: '/public/',
+      path: path.join(rootPath, 'dist', 'dev', 'client'),
+      publicPath: '/client/',
       filename: 'bundle.js'
     },
     resolve: {

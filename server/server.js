@@ -10,8 +10,10 @@ import WebpackDevServer from 'webpack-dev-server';
 
 import schema from './data/schema';
 
-const APP_PORT = 8000;
-const config = webpackConfig({ dev: true, APP_PORT });
+const APP_PORT = 7777;
+const rootPath = path.join(__dirname);
+const publicPath = path.join(rootPath, '../client');
+const config = webpackConfig({ dev: true, APP_PORT, rootPath });
 const compiler = webpack(config);
 const graphQLServer = express();
 
@@ -28,20 +30,17 @@ graphQLServer.listen(8080, () => {
 });
 
 const app = new WebpackDevServer(compiler, {
-  // contentBase: '/public/',
+  //contentBase: path.join(__dirname, 'build', 'public'),
   proxy: { '/graphql': 'http://localhost:8080' },
   publicPath: config.output.publicPath,
   hot: true,
   stats: { colors: true }
 });
 
-// view config
-// app.set('view engine', 'jade')
-
 // static
-app.use('/', express.static( path.join(__dirname, '/public')));
+app.use(express.static(publicPath));
 // app.use('/assets', express.static(__dirname + '/assets'))
 
 app.listen(APP_PORT, () => {
-  console.log('Jurastic-Waves is now running on http://localhost:8000');
+  console.log(`Jurastic-Waves is now running on http://localhost:${APP_PORT}`);
 });
