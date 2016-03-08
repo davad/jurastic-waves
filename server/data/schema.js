@@ -1,15 +1,19 @@
 
+
 import { GraphQLSchema, GraphQLObjectType } from 'graphql';
 import { queryDinosaurList, queryDinosaur } from  './queries/dinosaur';
- 
-const Schema = new GraphQLSchema({
-  query: new GraphQLObjectType({
-    name: 'Query',
-    fields: {
-      ...queryDinosaurList,
-      ...queryDinosaur
-    }
+import { fromGlobalId, globalIdField, nodeDefinitions } from 'graphql-relay';
+
+const queryType = new GraphQLObjectType({
+  name: 'Query',
+  fields: () => ({
+    dinosaur: queryDinosaur,
+    dinosaurList: queryDinosaurList
   })
+});
+
+export const Schema = new GraphQLSchema({
+  query: queryType
 });
 
 export default Schema;

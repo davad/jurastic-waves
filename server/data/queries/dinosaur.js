@@ -1,7 +1,8 @@
+'use strict';
 
 import { GraphQLList, GraphQLID, GraphQLNonNull } from 'graphql';
 
-import DinosaurType from '../types/dinosaur'; 
+import DinosaurType from '../types/dinosaur';
 
 export const queryDinosaurList = {
   type: new GraphQLList(DinosaurType),
@@ -12,12 +13,11 @@ export const queryDinosaurList = {
     }
   },
   resolve(root, params, options) {
-     return {
-       dinosaur: 1
-     } 
+    return {
+      dinosaur: 1
+    };
   }
-  
-}
+};
 
 export const queryDinosaur =  {
   type: DinosaurType,
@@ -28,8 +28,8 @@ export const queryDinosaur =  {
     }
   },
   resolve(root, params, options) {
-     return {
-       dinosaur: 1
-     } 
-  } 
-}
+    return {
+      dinosaur: 1
+    };
+  }
+};

@@ -8,40 +8,40 @@ import webpack from 'webpack';
 import webpackConfig from '../webpack.config';
 import WebpackDevServer from 'webpack-dev-server';
 
-import schema from './data/schema'; 
+import schema from './data/schema';
 
-const config = webpackConfig();
+const APP_PORT = 8000;
+const config = webpackConfig({ dev: true, APP_PORT });
 const compiler = webpack(config);
 const graphQLServer = express();
 
-graphQLServer.use('/', () => 
-    graphQLHTTP({
-        graphiql: true,
-        pretty: true,
-        schema
-    })
-)
+graphQLServer.use('/', () => {
+  graphQLHTTP({
+    graphiql: true,
+    pretty: true,
+    schema
+  });
+});
 
 graphQLServer.listen(8080, () => {
-    console.log(`GraphQL server is now running on http://localhost:8080`);
-})
+  console.log('GraphQL server is now running on http://localhost:8080');
+});
 
-var app = new WebpackDevServer(compiler, {
-  //contentBase: '/public/',
+const app = new WebpackDevServer(compiler, {
+  // contentBase: '/public/',
   proxy: { '/graphql': 'http://localhost:8080' },
   publicPath: config.output.publicPath,
+  hot: true,
   stats: { colors: true }
 });
 
-app.use(require('webpack-hot-middleware')(compiler));
-
 // view config
-app.set('view engine', 'jade')
+// app.set('view engine', 'jade')
 
 // static
-app.use('/', express.static( path.join(__dirname, '/public')))
-//app.use('/assets', express.static(__dirname + '/assets'))
+app.use('/', express.static( path.join(__dirname, '/public')));
+// app.use('/assets', express.static(__dirname + '/assets'))
 
-app.listen(8000, () => {
+app.listen(APP_PORT, () => {
   console.log('Jurastic-Waves is now running on http://localhost:8000');
-})
+});

@@ -3,7 +3,7 @@ import {
   GraphQLObjectType,
   GraphQLNonNull,
   GraphQLString,
-  GraphQLID 
+  GraphQLID
 } from 'graphql';
 
 // maybe this should be an interface and JurassicType references
@@ -43,9 +43,9 @@ const DinosaurType = new GraphQLObjectType({
       type: GraphQLString
     },
     geologicPeriod: {
-      type: String
+      type: GraphQLString
     }
   }
-})
+});
 
 export default DinosaurType;

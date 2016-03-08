@@ -1,13 +1,10 @@
 {
   "extends": "reactjs",
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "jsx": true,
-    "modules": true
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "globals": {},
   "env": {
@@ -20,7 +17,9 @@
     "react/jsx-uses-react": 1,
     "react/jsx-no-undef": 2,
     "react/wrap-multilines": 2,
-    "no-console": 0
+    "no-alert": 0,
+    "indent": [2, 2],
+    "no-console": 1
   },
   "plugins": [
     "react"

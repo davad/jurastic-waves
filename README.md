@@ -9,5 +9,5 @@ Flip Card, Grid Based, and Jurassic Dino (app) Demos some of the React.js Ecosys
 - Flow: type annotations
 
 
-Credit to http://www.dinosaurfact.net/ 
+Credit to http://www.dinosaurfact.net/ for data, information, and images
 Twitter: @dinosaurs

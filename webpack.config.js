@@ -1,5 +1,3 @@
-/* global __dirname */
-/* eslint-env node*/
 
 import webpack from 'webpack';
 import path from 'path';
@@ -7,17 +5,20 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
 
 export default function webpackConfig(appConfig) {
+  const { APP_PORT, dev } = appConfig;
+
   let config = {
     context: __dirname,
     devtool: 'inline-source-map',
     entry: [
-      'webpack-hot-middleware/client',
-      './client/src/app.js'
+      'webpack-dev-server/client?http://localhost:${APP_PORT}',
+      'webpack/hot/dev-server',
+      './client/src/index.js'
     ],
     output: {
-      path: path.resolve(__dirname, './build'),
-      publicPath: '/assets',
-      filename: 'app.js'
+      path: path.resolve(__dirname, './dist'),
+      publicPath: '/public/',
+      filename: 'bundle.js'
     },
     resolve: {
       extensions: ['', '.jsx', '.scss', '.js', '.json'],
@@ -42,7 +43,7 @@ export default function webpackConfig(appConfig) {
     css: [autoprefixer]
   };
 
-  if (!appConfig.dev) {
+  if (!dev) {
     // Add minification
     config.plugins.push(
       new ExtractTextPlugin('app.css', { allChunks: true }),
@@ -60,4 +61,4 @@ export default function webpackConfig(appConfig) {
   }
 
   return config;
-};
+}
