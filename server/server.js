@@ -42,5 +42,5 @@ app.use(express.static(publicPath));
 // app.use('/assets', express.static(__dirname + '/assets'))
 
 app.listen(APP_PORT, () => {
-  console.log(`Jurastic-Waves is now running on http://localhost:${APP_PORT}`);
+  console.log(`Jurassic-Waves is now running on http://localhost:${APP_PORT}`);
 });

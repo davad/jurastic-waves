@@ -1,4 +1,4 @@
-# jurastic-waves
+# jurassic-waves
 Flip Card, Grid Based, and Jurassic Waves (app) Demos some of the React.js Ecosystem features
 
 - React: The View
