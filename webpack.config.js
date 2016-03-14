@@ -35,7 +35,10 @@ export default function webpackConfig(appConfig) {
         {
           test: /(\.js|\.jsx)$/,
           exclude: /(node_modules)/,
-          loader: 'babel'
+          loader: 'babel',
+          query: {
+            plugins: [ path.join(__dirname, 'babelRelayPlugin')]
+          }
         }, {
           test: /(\.scss|\.css)$/,
           loader: ExtractTextPlugin.extract('style', 'css?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass?sourceMap!')
