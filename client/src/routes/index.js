@@ -1,6 +1,5 @@
 
 import Relay from 'react-relay';
-import React from 'react';
 
 /**
  * #3 - Relay routes
@@ -16,16 +15,10 @@ class HelloRoute extends Relay.Route {
     // Here, we compose your Relay container's
     // 'greetings' fragment into the 'greetings'
     // field at the root of the GraphQL schema.
-    greetings: (Component) => Relay.QL`
-      query GreetingsQuery {
-        greetings {
-          ${Component.getFragment('greetings')},
-        },
-      }
+    greetings: () => Relay.QL`
+      query { dinosaurList }
     `
   };
 }
-
-HelloRoute.routeName = 'Hello';
 
 export default HelloRoute;
