@@ -25,8 +25,8 @@ class App extends React.Component {
   render() {
     // Relay will materialize this prop based on the
     // result of the query in the next component.
-    var {hello} = this.props.greetings;
-    return <h1>{hello}</h1>;
+    console.log(this.props.dinosaurList);
+    return <h1>{'Hello'}</h1>;
   }
 }
 
@@ -46,8 +46,8 @@ App = Relay.createContainer(App, {
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
     greetings: () => Relay.QL`
-      fragment on Greetings {
-        hello,
+      fragment on Query  {
+        dinosaurList,
       }
     `
   }

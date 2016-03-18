@@ -31,8 +31,8 @@
     "history": "^1.12.5",
     "mongoose": "^4.4.6",
     "proxy-middleware": "^0.14.0",
-    "react": "^15.0.0-rc.1",
-    "react-dom": "^15.0.0-rc.1",
+    "react": "^15.0.0-rc.2",
+    "react-dom": "^15.0.0-rc.2",
     "react-relay": "^0.7.3",
     "react-router": "2.0.0"
   },

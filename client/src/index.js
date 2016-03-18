@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Relay from 'react-relay';
 
 import HelloRoute from './routes';
-import App from './components/App';
+import { App } from './components';
 
 ReactDOM.render(
   <Relay.RootContainer
