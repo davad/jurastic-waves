@@ -46,7 +46,7 @@ App = Relay.createContainer(App, {
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
     greetings: () => Relay.QL`
-      fragment on Query  {
+      fragment on Query {
         dinosaurList,
       }
     `

@@ -1,4 +1,3 @@
-'use strict';
 
 import { GraphQLList, GraphQLID, GraphQLNonNull } from 'graphql';
 
