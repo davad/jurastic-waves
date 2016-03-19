@@ -13,7 +13,10 @@ export const queryDinosaur =  {
   },
   resolve(root, params, options) {
     return {
-      dinosaur: 1
+      id: 1,
+      type: 'Asomroaus',
+      imageUrl: 'httpsblach',
+      kingdom: 'Beforeaus'
     };
   }
 };
@@ -23,8 +26,15 @@ export const queryDinosaurList = {
   args: {},
   resolve(root, params, options) {
     return [{
-      name: 'Jim',
-      id: 1
+      id: 1,
+      type: 'Asomroaus',
+      imageUrl: 'httpsblach',
+      kingdom: 'Beforeaus'
+    }, {
+      id: 2,
+      type: 'Bsomroaus',
+      imageUrl: 'httpsblach',
+      kingdom: 'Seamouse'
     }];
   }
 };

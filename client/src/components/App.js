@@ -3,18 +3,6 @@ import Relay from 'react-relay';
 import React from 'react';
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
-
-// Welcome to Relay.
-// Allow us to introduce you to the four elements.
-
-/**
  * #1 - Your React components
  * This will look familiar to React developers.
  *
@@ -25,8 +13,8 @@ class App extends React.Component {
   render() {
     // Relay will materialize this prop based on the
     // result of the query in the next component.
-    console.log(this.props.dinosaurList);
-    return <h1>{'Hello'}</h1>;
+    console.log(this.props);
+    return <h1>Hello</h1>;
   }
 }
 
@@ -45,9 +33,17 @@ App = Relay.createContainer(App, {
     //
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
-    greetings: () => Relay.QL`
-      fragment on Query {
-        dinosaurList,
+    dinosaurs: () => Relay.QL`
+      fragment on Dinosaur {
+        id,
+        name,
+        imageUrl,
+        shortDescription,
+        longDescription,
+        order,
+        superOrder,
+        kingdom,
+        phylum
       }
     `
   }

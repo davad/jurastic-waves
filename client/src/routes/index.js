@@ -9,16 +9,16 @@ import Relay from 'react-relay';
  * To learn more about Relay routes, visit:
  *   https://facebook.github.io/relay/docs/guides-routes.html
  */
-class HelloRoute extends Relay.Route {
-  static routeName = 'Hello';  // A unique name
+class HomeRoute extends Relay.Route {
+  static routeName = 'Home';  // A unique name
   static queries = {
     // Here, we compose your Relay container's
     // 'greetings' fragment into the 'greetings'
     // field at the root of the GraphQL schema.
-    greetings: () => Relay.QL`
+    dinosaurs: () => Relay.QL`
       query { dinosaurList }
     `
   };
 }
 
-export default HelloRoute;
+export default HomeRoute;
