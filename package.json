@@ -9,7 +9,8 @@
     "lint-fejs": "eslint server --fix",
     "lint-bkjs": "eslint client/src",
     "lint": "npm run lint-fejs && npm run lint-bkjs",
-    "schema": "gulp generate-schema"
+    "schema": "gulp generate-schema",
+    "load-data": "babel-node mongoTestData "
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
     "autoprefixer": "^6.0.3",
     "babel-eslint": "^5.0.0",
     "babel-loader": "^6.0.1",
+    "babel-cli": "^6.0.0",
     "babel-plugin-check-es2015-constants": "^6.5.0",
     "babel-plugin-syntax-class-properties": "^6.5.0",
     "babel-plugin-transform-class-properties": "^6.6.0",
