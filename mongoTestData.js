@@ -12,7 +12,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/test', () => {
         const length = data.length;
 
         data.forEach((item, index) => {
-          let dino = new Dinosaur(item);
+          const dino = new Dinosaur(item);
           let indexcounter = index + 1;
 
           dino.save((dinoErr) => {

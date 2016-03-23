@@ -19,6 +19,9 @@ const config = webpackConfig({ dev: true, APP_PORT, rootPath });
 const compiler = webpack(config);
 const graphQLServer = express();
 
+// Connect to the mongo database
+mongoose.connect('mongodb://127.0.0.1:27017/test');
+
 graphQLServer.use('/', graphQLHTTP({
   graphiql: true,
   pretty: true,
@@ -30,7 +33,7 @@ graphQLServer.listen(GRAPHQL_PORT, () => {
 });
 
 const app = new WebpackDevServer(compiler, {
-  //contentBase: '/client/',
+  // contentBase: '/client/',
   proxy: {'/graphql': `http://localhost:${GRAPHQL_PORT}`},
   publicPath: config.output.publicPath,
   hot: true,

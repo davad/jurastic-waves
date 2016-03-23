@@ -26,7 +26,7 @@ class App extends React.Component {
  * To learn more about Relay containers, visit:
  *   https://facebook.github.io/relay/docs/guides-containers.html
  */
-App = Relay.createContainer(App, {
+export default Relay.createContainer(App, {
   fragments: {
     // This GraphQL query executes against
     // the schema in the 'schema' tab above.
@@ -48,5 +48,3 @@ App = Relay.createContainer(App, {
     `
   }
 });
-
-export default App;
