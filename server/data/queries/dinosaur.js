@@ -1,5 +1,6 @@
 
 import { GraphQLList, GraphQLID, GraphQLNonNull } from 'graphql';
+import { fromGlobalId, globalIdField, nodeDefinitions } from 'graphql-relay';
 
 import DinosaurType from '../types/dinosaur';
 import DinosaurModel from '../models/dinosaur';
