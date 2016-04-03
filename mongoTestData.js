@@ -3,9 +3,11 @@
 import mongoose from 'mongoose';
 import data from './server/data/dino.json';
 import Dinosaur from './server/data/models/dinosaur';
+import GeologicPeriod from './server/data/models/geologicPeriod';
 
 mongoose.connect('mongodb://127.0.0.1:27017/test', () => {
-  Dinosaur.find().count((err, count) => {
+  // GeologicPeriod will act as the parent document saving different periods a sub documents
+  GeologicPeriod.find().count((err, count) => {
     // Only insert test data if count is 0
     if (count === 0) {
       const promise = new Promise((resolve) => {

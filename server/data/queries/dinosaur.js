@@ -40,6 +40,7 @@ export const queryDinosaurList = {
   type: new GraphQLList(DinosaurType),
   args: {},
   resolve(root, params, options) {
+    // Return all dinosaurs in db
     return DinosaurModel.find({}, (err, dinosaurs) => {
       return dinosaurs;
     });

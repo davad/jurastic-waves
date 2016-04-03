@@ -9,7 +9,7 @@ import React from 'react';
  * To learn more about React, visit:
  *  https://facebook.github.io/react
  */
-class App extends React.Component {
+class Grid extends React.Component {
   render() {
     // Relay will materialize this prop based on the
     // result of the query in the next component.
@@ -26,10 +26,7 @@ class App extends React.Component {
  * To learn more about Relay containers, visit:
  *   https://facebook.github.io/relay/docs/guides-containers.html
  */
-export default Relay.createContainer(App, {
-  initialVariables: {
-    geologicPeriodName: 'j'
-  },
+export default Relay.createContainer(Grid, {
   fragments: {
     // This GraphQL query executes against
     // the schema in the 'schema' tab above.
@@ -37,8 +34,16 @@ export default Relay.createContainer(App, {
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
     dinosaurs: () => Relay.QL`
-      fragment on GeologicPeriod {
-        id
+      fragment on Dinosaur {
+        id,
+        name,
+        imageUrl,
+        shortDescription,
+        longDescription,
+        order,
+        superOrder,
+        kingdom,
+        phylum
       }
     `
   }
