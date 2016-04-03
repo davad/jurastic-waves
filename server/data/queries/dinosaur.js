@@ -1,6 +1,5 @@
 
 import { GraphQLList, GraphQLID, GraphQLNonNull } from 'graphql';
-import { fromGlobalId, globalIdField, nodeDefinitions } from 'graphql-relay';
 
 import DinosaurType from '../types/dinosaur';
 import DinosaurModel from '../models/dinosaur';
@@ -41,6 +40,7 @@ export const queryDinosaurList = {
   type: new GraphQLList(DinosaurType),
   args: {},
   resolve(root, params, options) {
+    // Return all dinosaurs in db
     return DinosaurModel.find({}, (err, dinosaurs) => {
       return dinosaurs;
     });

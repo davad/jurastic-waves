@@ -1,16 +1,23 @@
 
 import { fromGlobalId, nodeDefinitions } from 'graphql-relay';
-import geologicPeriodType from './types/geologicPeriodType';
+import geologicPeriodType from './types/geologicPeriod';
+import dinoType from './types/dinosaur';
+
+function getGeoPeriod() {}
+
+function getDinosaur() {}
+
 /**
  * We get the node interface and field from the Relay library.
  *
  * The first method defines the way we resolve an ID to its object.
  * The second defines the way we resolve a node object to its GraphQL type.
  */
-const { nodeInterface, nodeField } = nodeDefinitions(
+export const { nodeInterface, nodeField } = nodeDefinitions(
   (globalId) => {
     const { type, id } = fromGlobalId(globalId);
     let value = null;
+
     if (type === 'GeologicPeriod') {
       value = getGeoPeriod(id);
     } else if (type === 'Dinosaur') {
@@ -24,4 +31,4 @@ const { nodeInterface, nodeField } = nodeDefinitions(
   }
 );
 
-export { nodeInterface, nodeField };
+export default nodeInterface;

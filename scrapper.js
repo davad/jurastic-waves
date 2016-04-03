@@ -44,7 +44,7 @@ function getOtherPageData() {
     if (item.children.length !== 0 && index === 0 && item.innerText) {
       return {
         longDescription: item.innerText
-      }
+      };
     } else {
       return { item: null };
     }
@@ -69,9 +69,7 @@ casper.then(function() {
 
   // For each link in array open in page and grab data
   this.each(links, function(self, link, index) {
-
     this.thenOpen(mylink + link, function() {
-
       try {
         var pageData = this.evaluate(getOtherPageData);
         var customDataItem = JSON.parse(customData[index]);

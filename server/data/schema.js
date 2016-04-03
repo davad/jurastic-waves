@@ -1,14 +1,15 @@
 
 import { GraphQLSchema, GraphQLObjectType } from 'graphql';
 
-import { geologicPeriod, queryDinosaurList, queryDinosaur } from  './queries/dinosaur';
+import { queryDinosaurList, queryDinosaur } from  './queries/dinosaur';
+import { queryGeologicPeriod } from './queries/geologicPeriod';
 import { nodeField } from './interfaces';
 
 const queryType = new GraphQLObjectType({
   name: 'Query',
   fields: () => ({
     node: nodeField,
-    geologicPeriod,
+    geologicPeriods: queryGeologicPeriod,
     dinosaur: queryDinosaur,
     dinosaurList: queryDinosaurList
   })

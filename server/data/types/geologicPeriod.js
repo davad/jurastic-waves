@@ -1,8 +1,19 @@
 
-import { GraphQLObjectType, GraphQLString } from 'graphql';
+import { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLList } from 'graphql';
 import { globalIdField } from 'graphql-relay';
 
+import DinosaurType from '../types/dinosaur';
 import { nodeInterface } from '../interfaces';
+function getGeoPeriod() {}
+
+function getDinosaur() {}
+
+/**
+ * We get the node interface and field from the Relay library.
+ *
+ * The first method defines the way we resolve an ID to its object.
+ * The second defines the way we resolve a node object to its GraphQL type.
+ */
 
 const geologicPeriodType = new GraphQLObjectType({
   name: 'GeologicPeriod',
@@ -10,7 +21,7 @@ const geologicPeriodType = new GraphQLObjectType({
   fields: () => ({
     id: globalIdField('GeologicPeriod'),
     geologicPeriodId: {
-      type: GraphQLString,
+      type: GraphQLInt,
       description: 'id of geologic period in db',
       resolve: (geologicPeriod) => geologicPeriod.id
     },
@@ -19,11 +30,11 @@ const geologicPeriodType = new GraphQLObjectType({
       description: 'The name of the geologic period.'
     },
     dinosaurs: {
-      type: shipConnection,
+      type: new GraphQLList(DinosaurType),
       description: 'The dinosaurs part of this geologic period.',
       args: {},
       resolve: (period, args) =>
-        period.dinosaurs.map((id) => getShip(id))
+        period.dinosaurs.map((id) => getDinosaur(id))
     }
   }),
   interfaces: [nodeInterface]
