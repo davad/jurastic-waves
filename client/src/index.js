@@ -10,12 +10,11 @@ import GeologicQueries from './queries/GeologicQueries';
 
 ReactDOM.render(
   <RelayRouter history={browserHistory}>
-    <Route path="*" component={App} queries={GeologicQueries}>
-      <IndexRoute
+    <Route path="*" component={App} queries={GeologicQueries} />
+     {/* <IndexRoute
         component={Grid}
         queries={GeologicQueries}
-      />
-    </Route>
+      />*/}
   </RelayRouter>,
   document.getElementById('jurassicRoot')
 );

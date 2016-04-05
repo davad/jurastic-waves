@@ -1,5 +1,5 @@
 
-import { GraphQLList, GraphQLString, GraphQLNonNull } from 'graphql';
+import { GraphQLString, GraphQLNonNull } from 'graphql';
 
 import GeologicPeriodType from '../types/geologicPeriod';
 import GeologicPeriodModel from '../models/geologicPeriod';

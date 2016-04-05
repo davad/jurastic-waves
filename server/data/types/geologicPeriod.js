@@ -1,5 +1,10 @@
 
-import { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLList } from 'graphql';
+import {
+  GraphQLObjectType,
+  GraphQLInt,
+  GraphQLString,
+  GraphQLList
+} from 'graphql';
 import { globalIdField } from 'graphql-relay';
 
 import DinosaurType from '../types/dinosaur';
@@ -15,7 +20,7 @@ function getDinosaur() {}
  * The second defines the way we resolve a node object to its GraphQL type.
  */
 
-const geologicPeriodType = new GraphQLObjectType({
+const GeologicPeriodType = new GraphQLObjectType({
   name: 'GeologicPeriod',
   description: 'A Geologic period for Dinosaurs',
   fields: () => ({
@@ -40,4 +45,4 @@ const geologicPeriodType = new GraphQLObjectType({
   interfaces: [nodeInterface]
 });
 
-export default geologicPeriodType;
+export default GeologicPeriodType;

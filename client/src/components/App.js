@@ -1,6 +1,6 @@
 
 import Relay from 'react-relay';
-import React from 'react';
+import React, { Component } from 'react';
 
 /**
  * #1 - Your React components
@@ -9,7 +9,7 @@ import React from 'react';
  * To learn more about React, visit:
  *  https://facebook.github.io/react
  */
-class App extends React.Component {
+class App extends Component {
   render() {
     // Relay will materialize this prop based on the
     // result of the query in the next component.
@@ -38,7 +38,9 @@ export default Relay.createContainer(App, {
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
     dinosaurs: () => Relay.QL`
       fragment on GeologicPeriod {
-        id
+        dinosaurs {
+          id
+        }
       }
     `
   }
