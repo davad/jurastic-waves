@@ -42,6 +42,15 @@ export default function webpackConfig(appConfig) {
         }, {
           test: /(\.scss|\.css)$/,
           loader: ExtractTextPlugin.extract('style', 'css?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass?sourceMap!')
+        }, {
+          test: /\.png$/,
+          loader: 'url-loader?mimetype=image/png'
+        }, {
+          test: /\.jpg$/,
+          loader: 'url-loader?mimetype=image/jpg'
+        }, {
+          test: /\.jpeg$/,
+          loader: 'url-loader?mimetype=image/jpeg'
         }
       ]
     },

@@ -13,7 +13,9 @@ const queryType = new GraphQLObjectType({
     node: nodeField,
     viewer: {
       type: GeologicPeriodType
-    }
+    },
+    queryDinosaurList,
+    queryDinosaur
   })
 });
 

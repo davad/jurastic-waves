@@ -40,9 +40,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
+    "babel-cli": "^6.0.0",
     "babel-eslint": "^5.0.0",
     "babel-loader": "^6.0.1",
-    "babel-cli": "^6.0.0",
     "babel-plugin-check-es2015-constants": "^6.5.0",
     "babel-plugin-syntax-class-properties": "^6.5.0",
     "babel-plugin-transform-class-properties": "^6.6.0",
@@ -80,6 +80,7 @@
     "postcss-loader": "^0.7.0",
     "sass-loader": "^3.0.0",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-dev-server": "^1.14.1",

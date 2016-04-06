@@ -3,9 +3,9 @@ import { fromGlobalId, nodeDefinitions } from 'graphql-relay';
 import geologicPeriodType from './types/geologicPeriod';
 import dinoType from './types/dinosaur';
 
-function getGeoPeriod() {}
+function getGeoPeriod() { return 'red'; }
 
-function getDinosaur() {}
+function getDinosaur() { return 'blue';}
 
 /**
  * We get the node interface and field from the Relay library.
@@ -17,6 +17,8 @@ export const { nodeInterface, nodeField } = nodeDefinitions(
   (globalId) => {
     const { type, id } = fromGlobalId(globalId);
     let value = null;
+
+    console.log('TYPE GeologicPeriod: ' + type );
 
     if (type === 'GeologicPeriod') {
       value = getGeoPeriod(id);
