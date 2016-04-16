@@ -29,7 +29,8 @@ graphQLServer.use('/', graphQLHTTP({
 }));
 
 graphQLServer.listen(GRAPHQL_PORT, () => {
-  console.log(`GraphQL server is now running on http://localhost:${GRAPHQL_PORT}`);
+  console.log(`GraphQL server is now
+    running on http://localhost:${GRAPHQL_PORT}`);
 });
 
 const app = new WebpackDevServer(compiler, {
@@ -39,9 +40,7 @@ const app = new WebpackDevServer(compiler, {
   hot: true,
   stats: { colors: true },
   port: 3000,
-  historyApiFallback: {
-    index: 'index.html'
-  }
+  historyApiFallback: true
 });
 
 // static

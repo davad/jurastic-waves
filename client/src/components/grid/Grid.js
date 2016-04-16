@@ -7,8 +7,8 @@ class Grid extends Component {
     console.log(this.props);
     return (
       <div>
-      <h2>GRID</h2>
-      <div>{this.props.dinosaurs}</div>
+        <h2>GRID</h2>
+        <div>{this.props.dinosaurs}</div>
       </div>
     );
   }
@@ -21,9 +21,7 @@ export default Relay.createContainer(Grid, {
   fragments: {
     dinosaurs: () => Relay.QL`
       fragment on GeologicPeriod {
-        dinosaurs(period: $period) {
-          id
-        }
+        dinosaurs(period: $period)
       }
     `
   }

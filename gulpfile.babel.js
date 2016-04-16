@@ -9,12 +9,12 @@ gulp.task('generate-schema', () => {
       json: true,
       graphql: false
     }))
-    .on('error',console.log)
+    .on('error', console.log)
     .pipe(gulp.dest('./server/data'));
 });
 
 gulp.task('watch-schema', () => {
-  gulp.watch("./server/data/schema.js", [ 'generate-schema' ]);
+  gulp.watch('./server/data/schema.js', [ 'generate-schema' ]);
 });
- 
-gulp.task("default", ["schema"]);
+
+gulp.task('default', ['schema']);
