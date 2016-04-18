@@ -12,16 +12,41 @@ import style from './style';
  *  https://facebook.github.io/react
  */
 class JurrasicApp extends Component {
+
+  static propTypes = {
+    children: PropTypes.array
+  }
+
+  constructor() {
+    super();
+
+    this.state = {
+      isPlay: false
+    };
+    this.clickJurrasicWaves = this.clickJurrasicWaves.bind(this);
+  }
+
+  clickJurrasicWaves() {
+    this.setState({isPlay: true});
+  }
+
   render() {
     // Relay will materialize this prop based on the
     // result of the query in the next component.
     console.log(this.props);
     return (
       <div className={style.appMain}>
-        {this.props.children}
+        {this.state.isPlay ? this.props.children :
+          <div className={style.appEnter}>
+            <button onClick={this.clickJurrasicWaves}>
+            ENTER
+            </button>
+          </div>
+        }
       </div>
     );
   }
+
 }
 
 /**

@@ -1,0 +1,24 @@
+
+.appMain {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('./dino_landing.jpg');
+  padding: 35px;
+  height: 100%;
+  width: 100%;
+}
+
+.appEnter {
+  text-align: center;
+  
+  > button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border-style: dashed;
+    border-width: 6px;
+    color: white;
+    height: 50px;
+    width: 225px;
+  }
+}
