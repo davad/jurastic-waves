@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { RelayRouter } from 'react-router-relay';
 import { IndexRoute, Route, browserHistory } from 'react-router';
 
-import JurrasicApp from './components/App';
+import JurrasicApp from './containers/App';
 import Grid from './components/grid/Grid';
 import GeologicQueries from './queries/GeologicQueries';
 

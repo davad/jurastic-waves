@@ -1,0 +1,17 @@
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  //background-image: url('./dino_landing.jpg');
+  border: 1px solid black;
+  width: 178px;
+  height: 210px;
+  margin: 23px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toolbelt {
+  border: 1px solid black;
+}

@@ -1,6 +1,6 @@
 
 import Relay from 'react-relay';
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 import style from './style';
 
