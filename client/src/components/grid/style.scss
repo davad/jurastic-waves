@@ -1,10 +1,20 @@
 
+.heading {
+  text-align: center;
+  
+  > h2 {
+    background: white;
+    border: 1px solid black;
+  }
+}
+
 .gridContainer {
   background-color: white;
   border: 1px solid black;
   color: black;
   padding: 10px;
   overflow: auto;
+  height: 500px;
   flex: 1;
 }
 

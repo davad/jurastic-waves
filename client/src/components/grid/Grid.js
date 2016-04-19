@@ -18,15 +18,16 @@ class Grid extends Component {
   render() {
     console.log(this.props);
     return (
-      <div className={style.gridContainer}>
-        <h2>Jurassic Waves</h2>
-        <div>{this.props.dinosaurs}</div>
-        <section className={style.cards}>
-          {Array(20).fill(null).map((i, index) => {
-            console.log('he');
-            return <Card key={index}/>;
-          })}
-        </section>
+      <div>
+        <div className={style.heading}><h2>Jurassic Waves</h2> </div>
+        <div className={style.gridContainer}>
+          <div>{this.props.dinosaurs}</div>
+          <section className={style.cards}>
+            {Array(20).fill(null).map((i, index) => {
+              return <Card key={index}/>;
+            })}
+          </section>
+        </div>
       </div>
     );
   }

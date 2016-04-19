@@ -4,14 +4,52 @@
   background-size: cover;
   background-position: 50% 50%;
   //background-image: url('./dino_landing.jpg');
+  border-radius: 5px;
   border: 1px solid black;
   width: 178px;
-  height: 210px;
+  height: 206px;
   margin: 23px;
   display: inline-block;
   cursor: pointer;
+  position: relative;
+  
+  & > div:first-child {
+    height: 20px;
+    padding: 3px;
+  }
+  
+  & > div:nth-child(2) {
+    height: 155px;
+  }
+  
+  & > div:last-child {
+    height: 25px;
+  }
+ 
 }
 
 .toolbelt {
-  border: 1px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 178px;
+
+  span {
+    i {
+      width: 25%;
+    }
+  }
+}
+
+.cardImg {
+  background-color: saddlebrown;
+  height: 150px;
+  width: 100%;
+  
+  > img {
+    padding: 10px 0px;
+    max-width: 100%;
+    height: auto;
+  }
 }
