@@ -2,7 +2,7 @@
 import Relay from 'react-relay';
 import React, { Component, PropTypes } from 'react';
 
-import Card from '../card/Card';
+import DinoCard from '../card/DinoCard';
 import style from './style';
 
 /**
@@ -24,7 +24,7 @@ class Grid extends Component {
           <div>{this.props.dinosaurs}</div>
           <section className={style.cards}>
             {Array(20).fill(null).map((i, index) => {
-              return <Card key={index}/>;
+              return <DinoCard key={index}/>;
             })}
           </section>
         </div>
@@ -38,9 +38,16 @@ export default Relay.createContainer(Grid, {
     period: 'jurassic'
   },
   fragments: {
-    dinosaurs: () => Relay.QL`
+    viewer: () => Relay.QL`
       fragment on GeologicPeriod {
-        dinosaurs(period: $period)
+        dinosaurs(period: $period){
+          edges {
+           node {
+            id,
+            ${DinoCard.getFragement('dinosaur')}
+            }
+          }
+        }
       }
     `
   }

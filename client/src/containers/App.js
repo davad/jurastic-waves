@@ -14,7 +14,7 @@ import style from './style';
 class JurrasicApp extends Component {
 
   static propTypes = {
-    children: PropTypes.array
+    children: PropTypes.object
   }
 
   constructor() {
@@ -64,7 +64,7 @@ export default Relay.createContainer(JurrasicApp, {
     //
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
-    dinosaurs: () => Relay.QL`
+    viewer: () => Relay.QL`
       fragment on GeologicPeriod {
        id
       }

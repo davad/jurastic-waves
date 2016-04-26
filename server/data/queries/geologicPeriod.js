@@ -9,7 +9,7 @@ import DinosaurModel from '../models/dinosaur';
 
 // Try queries at http://localhost:8080/
 
-export const queryGeologicPeriod =  {
+export const queryGeologicPeriod = {
   type: GeologicPeriodType,
   args: {
     name: {

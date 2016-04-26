@@ -1,11 +1,12 @@
 
 import React from 'react';
+import Relay from 'react-relay';
 
 import style from './style';
 
-const Card = (props) => (
+const DinoCard = (props) => (
   <div className={style.card}>
-    <div>DINO</div>
+    <div>Tyrannosaurus</div>
     <div className={style.cardImg}>
       <img src="http://images.nationalgeographic.com/wpf/media-live/photos/000/007/cache/tyrannosaurus_791_600x450.jpg" />
     </div>
@@ -19,5 +20,14 @@ const Card = (props) => (
 );
 
 // <i class="material-icons">star</i>
-
-export default Card;
+export default Relay.createContainer(DinoCard, {
+  fragments: {
+    dinosaur: () => Relay.QL`
+      fragment on Dinosaur {
+        name,
+        order,
+        shortDescription
+      }
+    `
+  },
+});

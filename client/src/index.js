@@ -14,6 +14,7 @@ ReactDOM.render(
       <IndexRoute
         component={Grid}
         queries={GeologicQueries}
+        prepareParams={() => ({ period: 'jurassic' })}
       />
     </Route>
   </RelayRouter>,
