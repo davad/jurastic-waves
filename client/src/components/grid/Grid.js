@@ -35,16 +35,17 @@ class Grid extends Component {
 
 export default Relay.createContainer(Grid, {
   initialVariables: {
-    period: 'jurassic'
+    period: 1
   },
   fragments: {
     viewer: () => Relay.QL`
-      fragment on GeologicPeriod {
-        dinosaurs(period: $period){
+      fragment on DinosaurList {
+        totalNumberOfDinosaurs,
+        dinosaurs(first: $period){
           edges {
            node {
             id,
-            ${DinoCard.getFragement('dinosaur')}
+            name
             }
           }
         }
