@@ -3,6 +3,7 @@ import webpack from 'webpack';
 import path from 'path';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default function webpackConfig(appConfig) {
   const { APP_PORT, dev, rootPath } = appConfig;
@@ -19,8 +20,8 @@ export default function webpackConfig(appConfig) {
       './client/src/index.js'
     ],
     output: {
-      path: path.join(rootPath, 'dist', 'dev', 'client'),
-      publicPath: '/client/',
+      path: path.join(rootPath, '/dist/'),
+      publicPath: '/',
       filename: 'bundle.js'
     },
     resolve: {
@@ -37,7 +38,7 @@ export default function webpackConfig(appConfig) {
           exclude: /(node_modules)/,
           loader: 'babel',
           query: {
-            plugins: [ path.join(__dirname, 'babelRelayPlugin')]
+            plugins: [path.join(__dirname, 'babelRelayPlugin')]
           }
         }, {
           test: /(\.scss|\.css)$/,
@@ -61,16 +62,22 @@ export default function webpackConfig(appConfig) {
   if (!dev) {
     // Add minification
     config.plugins.push(
-      new ExtractTextPlugin('app.css', { allChunks: true }),
       new webpack.optimize.UglifyJsPlugin()
     );
   } else {
     config.plugins.push(
-      new ExtractTextPlugin('app.css', { allChunks: true }),
       new webpack.HotModuleReplacementPlugin(),
       new webpack.NoErrorsPlugin(),
       new webpack.DefinePlugin({
         'process.env.NODE_ENV': JSON.stringify('development')
+      })
+    );
+
+    config.plugins.push(
+      new ExtractTextPlugin('app.css', { allChunks: true }),
+      new HtmlWebpackPlugin({
+        template: 'client/index.html',
+        favicon: 'client/favicon.ico'
       })
     );
   }
