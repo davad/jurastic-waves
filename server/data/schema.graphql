@@ -1,0 +1,51 @@
+schema {
+  query: Query
+}
+
+type Dinosaur {
+  id: ID!
+  name: String
+  shortDescription: String
+  longDescription: String
+  imageUrl: String
+  order: String
+  superOrder: String
+  kingdom: String
+  phylum: String
+  genus: String
+  geologicPeriod: String
+}
+
+type DinosaurConnection {
+  pageInfo: PageInfo!
+  edges: [DinosaurEdge]
+}
+
+type DinosaurEdge {
+  node: Dinosaur
+  cursor: String!
+}
+
+type DinosaurList implements Node {
+  id: ID!
+  dinosaurs(period: Int = 1, after: String, first: Int, before: String, last: Int): DinosaurConnection
+  totalNumberOfDinosaurs: Int
+}
+
+interface Node {
+  id: ID!
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+type Query {
+  node(id: ID!): Node
+  viewer: DinosaurList
+  queryDinosaurList: [Dinosaur]
+  queryDinosaur(id: ID!): Dinosaur
+}

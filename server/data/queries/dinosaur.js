@@ -1,7 +1,7 @@
 
 import { GraphQLList, GraphQLID, GraphQLNonNull } from 'graphql';
 
-import DinosaurType from '../types/dinosaur';
+import { DinosaurType, DinosaurListType } from '../types/dinosaur';
 import DinosaurModel from '../models/dinosaur';
 
 // Try queries at http://localhost:8080/
@@ -13,7 +13,7 @@ import DinosaurModel from '../models/dinosaur';
     }
   }
  **/
-export const queryDinosaur =  {
+export const queryDinosaur = {
   type: DinosaurType,
   args: {
     id: {
@@ -22,9 +22,7 @@ export const queryDinosaur =  {
     }
   },
   resolve(root, params, options) {
-    return DinosaurModel.findById('56f040f92ec6d82eba611d5f', (dinosaur) => {
-      return dinosaur;
-    });
+    return DinosaurModel.findById('56f040f92ec6d82eba611d5f', (dinosaur) => dinosaur);
   }
 };
 
@@ -41,8 +39,12 @@ export const queryDinosaurList = {
   args: {},
   resolve(root, params, options) {
     // Return all dinosaurs in db
-    return DinosaurModel.find({}, (err, dinosaurs) => {
-      return dinosaurs;
-    });
+    return DinosaurModel.find({}, (err, dinosaurs) => dinosaurs);
   }
+};
+
+export const queryDinosaurs = {
+  type: DinosaurListType,
+  args: {},
+  resolve: () => true
 };
