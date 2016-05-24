@@ -11,20 +11,16 @@ import style from './style';
 
 class Grid extends Component {
 
-  static propTypes = {
-    dinosaurs: PropTypes.array
-  }
-
   render() {
-    console.log(this.props);
+    const { viewer } = this.props;
+
     return (
       <div>
         <div className={style.heading}><h2>Jurassic Waves</h2> </div>
         <div className={style.gridContainer}>
-          <div>{this.props.dinosaurs}</div>
           <section className={style.cards}>
-            {Array(20).fill(null).map((i, index) => {
-              return <DinoCard key={index}/>;
+            {viewer.dinosaurs.edges.map((edge, index) => {
+              return <DinoCard key={index} dinosaur={edge.node} />;
             })}
           </section>
         </div>
@@ -35,17 +31,18 @@ class Grid extends Component {
 
 export default Relay.createContainer(Grid, {
   initialVariables: {
-    period: 1
+    period: null,
+    numItems: 500
   },
   fragments: {
     viewer: () => Relay.QL`
       fragment on DinosaurList {
         totalNumberOfDinosaurs,
-        dinosaurs(first: $period){
+        dinosaurs(first: $numItems, period: $period){
           edges {
            node {
             id,
-            name
+            ${DinoCard.getFragment('dinosaur')}
             }
           }
         }

@@ -1,13 +1,14 @@
 
+import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import useRelay from 'react-router-relay';
-import Relay from 'react-relay';
 import {
   Router,
   browserHistory,
   applyRouterMiddleware
 } from 'react-router';
+import Relay from 'react-relay';
+import useRelay from 'react-router-relay';
 
 import routes from './routes/index';
 
@@ -20,3 +21,4 @@ ReactDOM.render(
   />,
   document.getElementById('jurassicRoot')
 );
+

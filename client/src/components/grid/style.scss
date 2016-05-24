@@ -1,15 +1,21 @@
 
+%background-main {
+  background: linear-gradient(to right, rgba(139,69,19,1) 0%, rgba(193,158,103,1) 49%, rgba(182,141,76,1) 62%, rgba(139,69,19,1) 100%);
+  background: -moz-linear-gradient(left, rgba(139,69,19,1) 0%, rgba(193,158,103,1) 49%, rgba(182,141,76,1) 62%, rgba(139,69,19,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(139,69,19,1)), color-stop(49%, rgba(193,158,103,1)), color-stop(62%, rgba(182,141,76,1)), color-stop(100%, rgba(139,69,19,1)));
+}
+
 .heading {
   text-align: center;
   
   > h2 {
-    background: white;
+    @extend %background-main;
     border: 1px solid black;
   }
 }
 
 .gridContainer {
-  background-color: white;
+  @extend %background-main;
   border: 1px solid black;
   color: black;
   overflow: auto;

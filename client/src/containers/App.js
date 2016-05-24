@@ -21,13 +21,13 @@ export default class JurrasicApp extends Component {
     super();
 
     this.state = {
-      isPlay: false
+      isActive: false
     };
     this.clickJurrasicWaves = this.clickJurrasicWaves.bind(this);
   }
 
   clickJurrasicWaves() {
-    this.setState({isPlay: true});
+    this.setState({isActive: true});
   }
 
   render() {
@@ -36,7 +36,7 @@ export default class JurrasicApp extends Component {
     console.log(this.props);
     return (
       <div className={style.appMain}>
-        {this.state.isPlay ? this.props.children :
+        {this.state.isActive ? this.props.children :
           <div className={style.appEnter}>
             <button onClick={this.clickJurrasicWaves}>
             ENTER
