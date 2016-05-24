@@ -1,22 +1,22 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RelayRouter } from 'react-router-relay';
-import { IndexRoute, Route, browserHistory } from 'react-router';
+import useRelay from 'react-router-relay';
+import Relay from 'react-relay';
+import {
+  Router,
+  browserHistory,
+  applyRouterMiddleware
+} from 'react-router';
 
-import JurrasicApp from './containers/App';
-import Grid from './components/grid/Grid';
-import GeologicQueries from './queries/GeologicQueries';
+import routes from './routes/index';
 
 ReactDOM.render(
-  <RelayRouter history={browserHistory}>
-    <Route path="/" component={JurrasicApp} queries={GeologicQueries}>
-      <IndexRoute
-        component={Grid}
-        queries={GeologicQueries}
-        prepareParams={() => ({ period: 'jurassic' })}
-      />
-    </Route>
-  </RelayRouter>,
+  <Router
+    history={browserHistory}
+    render={applyRouterMiddleware(useRelay)}
+    routes={routes}
+    environment={Relay.Store}
+  />,
   document.getElementById('jurassicRoot')
 );

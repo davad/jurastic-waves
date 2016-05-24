@@ -14,7 +14,7 @@ const APP_PORT = 7777;
 const GRAPHQL_PORT = 8080;
 
 const rootPath = path.join(__dirname);
-const publicPath = path.join(rootPath, '../client');
+const publicPath = path.join(rootPath, '../dist');
 const config = webpackConfig({ dev: true, APP_PORT, rootPath });
 const compiler = webpack(config);
 const graphQLServer = express();
@@ -34,12 +34,11 @@ graphQLServer.listen(GRAPHQL_PORT, () => {
 });
 
 const app = new WebpackDevServer(compiler, {
-  // contentBase: '/client/',
+  contentBase: '../client/',
   proxy: { '/graphql': `http://localhost:${GRAPHQL_PORT}` },
   publicPath: config.output.publicPath,
   hot: true,
   stats: { colors: true },
-  port: 3000,
   historyApiFallback: true
 });
 

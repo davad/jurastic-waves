@@ -11,7 +11,7 @@ import style from './style';
  * To learn more about React, visit:
  *  https://facebook.github.io/react
  */
-class JurrasicApp extends Component {
+export default class JurrasicApp extends Component {
 
   static propTypes = {
     children: PropTypes.object
@@ -46,7 +46,6 @@ class JurrasicApp extends Component {
       </div>
     );
   }
-
 }
 
 /**
@@ -56,7 +55,7 @@ class JurrasicApp extends Component {
  *
  * To learn more about Relay containers, visit:
  *   https://facebook.github.io/relay/docs/guides-containers.html
- */
+
 export default Relay.createContainer(JurrasicApp, {
   fragments: {
     // This GraphQL query executes against
@@ -64,10 +63,19 @@ export default Relay.createContainer(JurrasicApp, {
     //
     // To learn more about Relay.QL, visit:
     //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
-    viewer: () => Relay.QL`
-      fragment on GeologicPeriod {
-       id
+    dinosaurList: () => Relay.QL`
+      fragment on DinosaurList {
+        totalNumberOfDinosaurs,
+        dinosaurs {
+          edges {
+            node {
+              id,
+              name
+            }
+          }
+        }
       }
     `
   }
 });
+ */
