@@ -31,14 +31,14 @@ class Grid extends Component {
 
 export default Relay.createContainer(Grid, {
   initialVariables: {
-    period: null,
+    kingdom: 'Animalia',
     numItems: 500
   },
   fragments: {
     viewer: () => Relay.QL`
       fragment on DinosaurList {
         totalNumberOfDinosaurs,
-        dinosaurs(first: $numItems, period: $period){
+        dinosaurs(first: $numItems, kingdom: $kingdom){
           edges {
            node {
             id,

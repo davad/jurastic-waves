@@ -18,7 +18,7 @@ const dinosaurSchema = new mongoose.Schema({
   order: {
     type: String
   },
-  superOrder: {
+  superorder: {
     type: String
   },
   kingdom: {
@@ -31,6 +31,15 @@ const dinosaurSchema = new mongoose.Schema({
     type: String
   },
   geologicPeriod: {
+    type: String
+  },
+  class: {
+    type: String
+  },
+  family: {
+    type: String
+  },
+  suborder: {
     type: String
   }
 });

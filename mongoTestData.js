@@ -3,11 +3,9 @@
 import mongoose from 'mongoose';
 import data from './server/data/dino.json';
 import Dinosaur from './server/data/models/dinosaur';
-import GeologicPeriod from './server/data/models/geologicPeriod';
 
 mongoose.connect('mongodb://127.0.0.1:27017/test', () => {
-  // GeologicPeriod will act as the parent document saving different periods a sub documents
-  GeologicPeriod.find().count((err, count) => {
+  Dinosaur.find().count((err, count) => {
     // Only insert test data if count is 0
     if (count === 0) {
       const promise = new Promise((resolve) => {
@@ -41,10 +39,9 @@ mongoose.connect('mongodb://127.0.0.1:27017/test', () => {
 });
 
 // If the Node process ends, close the Mongoose connection
-process.on('SIGINT', function() {
-  mongoose.connection.close(function() {
+process.on('SIGINT', () => {
+  mongoose.connection.close(() => {
     console.log('Mongoose default connection disconnected through app termination');
     process.exit(0);
   });
 });
-

@@ -41,7 +41,7 @@ export const DinosaurType = new GraphQLObjectType({
     order: {
       type: GraphQLString
     },
-    superOrder: {
+    superorder: {
       type: GraphQLString
     },
     kingdom: {
@@ -54,6 +54,15 @@ export const DinosaurType = new GraphQLObjectType({
       type: GraphQLString
     },
     geologicPeriod: {
+      type: GraphQLString
+    },
+    family: {
+      type: GraphQLString
+    },
+    suborder: {
+      type: GraphQLString
+    },
+    class: {
       type: GraphQLString
     }
   }
@@ -83,22 +92,38 @@ export const DinosaurListType = new GraphQLObjectType({
       args: Object.assign({
         period: {
           name: 'period',
-          type: GraphQLInt,
-          defaultValue: 1
+          type: GraphQLInt
+        },
+        kingdom: {
+          name: 'kingdom',
+          type: GraphQLString
+        },
+        order: {
+          name: 'order',
+          type: GraphQLString
         }
       }, connectionArgs),
-      resolve: (period, args) => {
+      resolve: (root, args) => {
         const start = args.after ? cursorToOffset(args.after) + 1 : 0;
         const size = (args.first || 8) + 1;
+        const tempArgs = Object.assign({}, args);
+        const { order, kingdom } = tempArgs;
+        let query = {};
 
-        if (args.period !== null) {
+        // if (typeof period === 'undefined') {
+        //   period = null;
+        // }
 
-        } else {
+        if (typeof order !== 'undefined') {
+          query.order = order;
+        }
 
+        if (typeof kingdom !== 'undefined') {
+          query.kingdom = kingdom;
         }
 
         return new Promise((resolve, reject) => {
-          DinosaurModel.find({}, (err, dinosaurs) => {
+          DinosaurModel.find(query, (err, dinosaurs) => {
             if (err) {
               reject(err);
             } else {
