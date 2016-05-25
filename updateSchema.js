@@ -7,8 +7,11 @@ import { graphql } from 'graphql';
 import { introspectionQuery, printSchema } from 'graphql/utilities';
 
 // Save JSON of full schema introspection for Babel Relay Plugin to use
-(function* () {
-  var result = yield (graphql(Schema, introspectionQuery));
+const introspectionPromise = new Promise((resolve, reject) => {
+  resolve(graphql(Schema, introspectionQuery));
+});
+
+introspectionPromise.then((result) => {
   if (result.errors) {
     console.error(
       'ERROR introspecting schema: ',
@@ -20,7 +23,7 @@ import { introspectionQuery, printSchema } from 'graphql/utilities';
       JSON.stringify(result, null, 2)
     );
   }
-})();
+});
 
 // Save user readable type system shorthand of schema
 fs.writeFileSync(

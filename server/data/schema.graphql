@@ -9,11 +9,14 @@ type Dinosaur {
   longDescription: String
   imageUrl: String
   order: String
-  superOrder: String
+  superorder: String
   kingdom: String
   phylum: String
   genus: String
   geologicPeriod: String
+  family: String
+  suborder: String
+  class: String
 }
 
 type DinosaurConnection {
@@ -28,7 +31,7 @@ type DinosaurEdge {
 
 type DinosaurList implements Node {
   id: ID!
-  dinosaurs(period: Int = 1, after: String, first: Int, before: String, last: Int): DinosaurConnection
+  dinosaurs(period: Int, kingdom: String, order: String, after: String, first: Int, before: String, last: Int): DinosaurConnection
   totalNumberOfDinosaurs: Int
 }
 

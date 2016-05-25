@@ -176,7 +176,27 @@
                     "name": "Int",
                     "ofType": null
                   },
-                  "defaultValue": "1"
+                  "defaultValue": null
+                },
+                {
+                  "name": "kingdom",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  },
+                  "defaultValue": null
+                },
+                {
+                  "name": "order",
+                  "description": null,
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  },
+                  "defaultValue": null
                 },
                 {
                   "name": "after",
@@ -512,7 +532,7 @@
               "deprecationReason": null
             },
             {
-              "name": "superOrder",
+              "name": "superorder",
               "description": null,
               "args": [],
               "type": {
@@ -561,6 +581,42 @@
             },
             {
               "name": "geologicPeriod",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "family",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "suborder",
+              "description": null,
+              "args": [],
+              "type": {
+                "kind": "SCALAR",
+                "name": "String",
+                "ofType": null
+              },
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "class",
               "description": null,
               "args": [],
               "type": {
