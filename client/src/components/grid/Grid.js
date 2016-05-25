@@ -29,6 +29,10 @@ class Grid extends Component {
   }
 }
 
+Grid.propTypes = {
+  viewer: React.PropTypes.object
+};
+
 export default Relay.createContainer(Grid, {
   initialVariables: {
     kingdom: 'Animalia',

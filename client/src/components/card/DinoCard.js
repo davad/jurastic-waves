@@ -8,9 +8,7 @@ import style from './style';
 class DinoCard extends React.Component {
 
   render () {
-
     const { dinosaur } = this.props;
-    console.log(dinosaur)
     return (
       <div className={style.card}>
         <div><Link to={`dinosaur/${dinosaur.id}`}>{dinosaur.name}</Link></div>
@@ -27,6 +25,10 @@ class DinoCard extends React.Component {
     );
   }
 }
+
+DinoCard.propTypes = {
+  dinosaur: React.PropTypes.object
+};
 
 // <i class="material-icons">star</i>
 export default Relay.createContainer(DinoCard, {

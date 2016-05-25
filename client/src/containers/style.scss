@@ -1,9 +1,15 @@
 
+:global {
+  html { 
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
 .appMain {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url('./dino_landing.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) , url('./images/jurrasic-wave.jpg');
   padding: 35px;
   height: 100%;
   width: 100%;
