@@ -1,7 +1,7 @@
 
 import Relay from 'react-relay';
 import React, { Component, PropTypes } from 'react';
-
+import { Link } from 'react-router';
 import DinoCard from '../card/DinoCard';
 import style from './style';
 
@@ -16,7 +16,9 @@ class Grid extends Component {
 
     return (
       <div>
-        <div className={style.heading}><h2>Jurassic Waves</h2> </div>
+        <div className={style.heading}>
+          <h2><Link to="/">Jurassic Waves</Link></h2>
+        </div>
         <div className={style.gridContainer}>
           <section className={style.cards}>
             {viewer.dinosaurs.edges.map((edge, index) => {

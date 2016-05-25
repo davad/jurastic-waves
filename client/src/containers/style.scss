@@ -22,9 +22,9 @@
   
   > button {
     -webkit-appearance: none;
-    background-color: transparent;
-    border-style: dashed;
-    border-width: 6px;
+    font-weight: 500;
+    background-color: rgba(31, 25, 18, 0.23);
+    border: 6px dashed #8B3300;
     color: white;
     height: 50px;
     width: 225px;

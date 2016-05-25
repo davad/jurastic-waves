@@ -4,21 +4,9 @@ import React, { Component, PropTypes } from 'react';
 
 import style from './style';
 
-/**
- * #1 - Your React components
- * This will look familiar to React developers.
- *
- * To learn more about React, visit:
- *  https://facebook.github.io/react
- */
 export default class JurrasicApp extends Component {
-
-  static propTypes = {
-    children: PropTypes.object
-  }
-
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       isActive: false
@@ -27,13 +15,10 @@ export default class JurrasicApp extends Component {
   }
 
   clickJurrasicWaves() {
-    this.setState({isActive: true});
+    this.setState({ isActive: true });
   }
 
   render() {
-    // Relay will materialize this prop based on the
-    // result of the query in the next component.
-    console.log(this.props);
     return (
       <div className={style.appMain}>
         {this.state.isActive ? this.props.children :
@@ -48,34 +33,6 @@ export default class JurrasicApp extends Component {
   }
 }
 
-/**
- * #2 - Relay containers
- * Compose your React components with a declaration of
- * the GraphQL query fragments that fetch their data.
- *
- * To learn more about Relay containers, visit:
- *   https://facebook.github.io/relay/docs/guides-containers.html
-
-export default Relay.createContainer(JurrasicApp, {
-  fragments: {
-    // This GraphQL query executes against
-    // the schema in the 'schema' tab above.
-    //
-    // To learn more about Relay.QL, visit:
-    //   https://facebook.github.io/relay/docs/api-reference-relay-ql.html
-    dinosaurList: () => Relay.QL`
-      fragment on DinosaurList {
-        totalNumberOfDinosaurs,
-        dinosaurs {
-          edges {
-            node {
-              id,
-              name
-            }
-          }
-        }
-      }
-    `
-  }
-});
- */
+JurrasicApp.propTypes = {
+  children: PropTypes.object
+};

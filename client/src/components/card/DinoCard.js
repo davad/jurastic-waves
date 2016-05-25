@@ -1,25 +1,44 @@
 
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 import Relay from 'react-relay';
 import { Link } from 'react-router';
 
 import style from './style';
 
-class DinoCard extends React.Component {
+class DinoCard extends Component {
+  constructor(props) {
+    super(props);
 
-  render () {
+    this.handleStarClick = this.handleStarClick.bind(this);
+  }
+
+  handleStarClick() {
+    return 'test';
+  }
+
+  render() {
     const { dinosaur } = this.props;
     return (
       <div className={style.card}>
-        <div><Link to={`dinosaur/${dinosaur.id}`}>{dinosaur.name}</Link></div>
+        <div>
+          <Link to={`dinosaur/${dinosaur.id}`}>{dinosaur.name}</Link>
+        </div>
         <div className={style.cardImgContainer}>
           <img src={dinosaur.imageUrl} role="presentation" />
         </div>
         <div className={style.toolbelt}>
-          <span><i className="material-icons">settings</i></span>
-          <span><i className="material-icons">star_border</i></span>
-          <span><i className="material-icons">edit</i></span>
-          <span><i className="material-icons">audiotrack</i></span>
+          <span>
+            <i className="material-icons">settings</i>
+          </span>
+          <span onClick={this.handleStarClick}>
+            <i className="material-icons">star_border</i>
+          </span>
+          <span>
+            <i className="material-icons">edit</i>
+          </span>
+          <span>
+            <i className="material-icons">audiotrack</i>
+          </span>
         </div>
       </div>
     );
@@ -27,7 +46,7 @@ class DinoCard extends React.Component {
 }
 
 DinoCard.propTypes = {
-  dinosaur: React.PropTypes.object
+  dinosaur: PropTypes.object
 };
 
 // <i class="material-icons">star</i>
