@@ -6,7 +6,7 @@ import autoprefixer from 'autoprefixer';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default function webpackConfig(appConfig) {
-  const { APP_PORT, dev, rootPath } = appConfig;
+  const { APP_PORT, rootPath } = appConfig;
 
   /**
    * Explanation: https://github.com/webpack/docs/wiki/configuration
@@ -15,6 +15,7 @@ export default function webpackConfig(appConfig) {
     context: __dirname,
     devtool: 'inline-source-map',
     entry: [
+      'babel-polyfill',
       `webpack-dev-server/client?http://localhost:${APP_PORT}`,
       'webpack/hot/dev-server',
       './client/src/index.js'
@@ -59,28 +60,21 @@ export default function webpackConfig(appConfig) {
     css: [autoprefixer]
   };
 
-  if (!dev) {
-    // Add minification
-    config.plugins.push(
-      new webpack.optimize.UglifyJsPlugin()
-    );
-  } else {
-    config.plugins.push(
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NoErrorsPlugin(),
-      new webpack.DefinePlugin({
-        'process.env.NODE_ENV': JSON.stringify('development')
-      })
-    );
+  config.plugins.push(
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('development')
+    })
+  );
 
-    config.plugins.push(
-      new ExtractTextPlugin('app.css', { allChunks: true }),
-      new HtmlWebpackPlugin({
-        template: 'client/index.html',
-        favicon: 'client/favicon.ico'
-      })
-    );
-  }
+  config.plugins.push(
+    new ExtractTextPlugin('app.css', { allChunks: true }),
+    new HtmlWebpackPlugin({
+      template: 'client/index.html',
+      favicon: 'client/favicon.ico'
+    })
+  );
 
   return config;
 }
