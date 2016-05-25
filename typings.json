@@ -4,10 +4,13 @@
   "devDependencies": {
     "tape": "registry:npm/tape#4.0.0+20160322235547"
   },
-  "ambientDependencies": {
+  "globalDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654",
     "express-graphql": "registry:dt/express-graphql#0.0.0+20160316155526",
-    "react": "registry:dt/react#0.14.0+20160423065914",
-    "react-addons-test-utils": "registry:dt/react-addons-test-utils#0.14.0+20160417144949",
-    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+    "node": "registry:dt/node#6.0.0+20160523035754",
+    "react": "registry:dt/react#0.14.0+20160423065914"
+  },
+  "dependencies": {
+    "react-router": "registry:npm/react-router#2.0.0+20160214194820"
   }
 }
