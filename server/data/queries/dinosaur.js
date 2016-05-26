@@ -21,8 +21,8 @@ export const queryDinosaur = {
       type: new GraphQLNonNull(GraphQLID)
     }
   },
-  resolve(root, params, options) {
-    return DinosaurModel.findById('56f040f92ec6d82eba611d5f', (dinosaur) => dinosaur);
+  resolve(root, params) {
+    return DinosaurModel.findById(params.id, (dinosaur) => dinosaur);
   }
 };
 

@@ -64,11 +64,14 @@ export const DinosaurType = new GraphQLObjectType({
     },
     class: {
       type: GraphQLString
+    },
+    stars: {
+      type: GraphQLInt
     }
   }
 });
 
-const {
+export const {
   connectionType: DinosaurListConnection,
   edgeType: DinosaurListEdge
 } = connectionDefinitions({

@@ -41,6 +41,9 @@ const dinosaurSchema = new mongoose.Schema({
   },
   suborder: {
     type: String
+  },
+  stars: {
+    type: Number
   }
 });
 

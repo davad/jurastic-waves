@@ -1,5 +1,17 @@
 schema {
   query: Query
+  mutation: Mutation
+}
+
+input AddStarRatingInput {
+  id: ID!
+  stars: Int!
+  clientMutationId: String!
+}
+
+type AddStarRatingPayload {
+  viewer: DinosaurList
+  clientMutationId: String!
 }
 
 type Dinosaur {
@@ -17,6 +29,7 @@ type Dinosaur {
   family: String
   suborder: String
   class: String
+  stars: Int
 }
 
 type DinosaurConnection {
@@ -33,6 +46,10 @@ type DinosaurList implements Node {
   id: ID!
   dinosaurs(period: Int, kingdom: String, order: String, after: String, first: Int, before: String, last: Int): DinosaurConnection
   totalNumberOfDinosaurs: Int
+}
+
+type Mutation {
+  addStars(input: AddStarRatingInput!): AddStarRatingPayload
 }
 
 interface Node {

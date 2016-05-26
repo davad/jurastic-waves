@@ -10,6 +10,7 @@ import {
   queryDinosaurs
 } from './queries/dinosaur';
 
+import addStarRatingMutation from './mutations/addStarRatingMutaiton';
 import { nodeField } from './interfaces';
 
 const query = new GraphQLObjectType({
@@ -22,8 +23,16 @@ const query = new GraphQLObjectType({
   })
 });
 
+const mutation = new GraphQLObjectType({
+  name: 'Mutation',
+  fields: () => ({
+    addStars: addStarRatingMutation
+  }),
+});
+
 export const Schema = new GraphQLSchema({
-  query
+  query,
+  mutation
 });
 
 export default Schema;
