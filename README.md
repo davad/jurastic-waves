@@ -6,7 +6,6 @@ Flip Card, Grid Based, and Jurassic Waves (app) Demos some of the React.js Ecosy
 - GraphQL: Server
 - Mongo: NoSQL DB
 - Babel: ES6 and beyond
-- Flow: type annotations
 
 
 Credit to http://www.dinosaurfact.net/ for data, information, and images
@@ -14,11 +13,15 @@ Twitter: @dinosaurs
 
 # Development
 
-`npm install`
-
 Using mongo for the DB... you will need that installed
-# MAC OSX homebrew for mongo
+### MAC OSX homebrew for mongo
+- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+### Windows
+- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+`npm install`
+`npm run load-data`
+`npm start`
 
-# Other options change application to use dino.json will require alot more rework
+### For other options - change application to use dino.json will require alot more rework
 
 # DISCLAIMER WIP
