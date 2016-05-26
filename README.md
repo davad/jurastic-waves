@@ -18,6 +18,7 @@ Using mongo for the DB... you will need that installed
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 ### Windows
 - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
 `npm install`
 `npm run load-data`
 `npm start`
