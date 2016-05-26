@@ -6,3 +6,9 @@ export default {
     viewer
   }`
 };
+
+export const DinosaurQuery = {
+  dinosaur: () => Relay.QL`query {
+    queryDinosaur(id: $id)
+  }`
+};
